@@ -56,3 +56,7 @@ mitsuba.*.log
 .oh-my-zsh
 .vscode
 *.log
+
+/scenes/dragon/xyzrgb_dragon.ply.gz
+/scenes/dragon/data
+/scenes/dragon/dragon.ply

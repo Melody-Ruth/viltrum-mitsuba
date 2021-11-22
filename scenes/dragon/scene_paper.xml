@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <scene version="0.6.0">
 	<integrator type="quad">
-		<float name="spp" value="32"/>
+		<float name="spp" value="155"/>
 		<integer name="n_dims" value="4"/>
 		<float name="spp_cv" value="-1"/>
 		<float name="scaleSpp" value="16"/>
 		<integer name="maxIterations" value="1"/>
 		<integer name="maxDepth" value="2"/>
 		<string name="typeIntegrator" value="cv_pixel_alphaOpt"/>
-		<string name="typeSubIntegrator" value="pathMIS"/>
+		<string name="typeSubIntegrator" value="path"/>
 		<string name="higherQuadRule" value="simpson"/>
 		<float name="error_size_weight" value="0.00001"/>
 		<boolean name="error_image" value="false"/>

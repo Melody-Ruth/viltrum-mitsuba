@@ -212,7 +212,9 @@ public:
         return oss.str();
     }
 
-    Shader *createShader(Renderer *renderer) const;
+    Shader *createShader(Renderer *renderer) const {
+    	return NULL;
+    }
 
     MTS_DECLARE_CLASS()
 protected:

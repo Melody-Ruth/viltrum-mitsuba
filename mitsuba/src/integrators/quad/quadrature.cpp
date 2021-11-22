@@ -1,5 +1,6 @@
 
 #include <string>
+#include <iostream>
 
 #include <mitsuba/render/scene.h>
 #include <mitsuba/core/plugin.h>
@@ -114,6 +115,22 @@ public:
 	    for (std::size_t i=0;i<DIM;++i) {
 		    std::uniform_real_distribution<Float> dis(range.min(i),range.max(i));
 		    sample[i] = dis(rng);
+		}
+
+		if (depth != depthQuadrature) {
+			ref_integrator->m_maxDepth = depth;
+		}
+
+		return std::make_tuple(f(sample, rng, true),sample);
+	}
+
+	template<typename F, typename Float, std::size_t DIM, typename RNG>
+	auto sampleOpposite(const F& f, const Range<Float,DIM>& range, RNG& rng, std::array<Float,DIM> otherSample) const {
+		std::array<Float,DIM> sample;
+	    for (std::size_t i=0;i<DIM;++i) {
+		    std::uniform_real_distribution<Float> dis(range.min(i),range.max(i));
+		    sample[i] = range.max(i) - (otherSample[i]-range.min(i));
+		    //sample[i] = dis(rng);
 		}
 
 		if (depth != depthQuadrature) {
@@ -285,7 +302,8 @@ public:
 		/*
 		 *  Create subintegrator
 		 */
-
+		 
+		
 		if (m_typeSubIntegrator == "path") {
 			ref<PathTracerQuadrature> tempPtr = static_cast<PathTracerQuadrature *> (PluginManager::getInstance()->
 				createObject(MTS_CLASS(MonteCarloIntegrator), Properties("pathQuadrature")));
@@ -369,6 +387,7 @@ public:
 
 			if (m_modeMIS == "all") {
 				subIntegrator->m_modeMIS = MonteCarloIntegrator::MIS::ALL;
+				//Log(EInfo, "Using MIS all");//added by me
 			} else if (m_modeMIS == "emitter") {
 				subIntegrator->m_modeMIS = MonteCarloIntegrator::MIS::EMITTER;
 			} else if (m_modeMIS == "brdf") {
@@ -456,6 +475,16 @@ public:
 			auto rg = region_generator(std::forward<NESTEDQ>(nestedQ), errorEstimator(), m_maxIterations);
 
 			auto integrator = integrator_stratified_pixel_control_variates(std::forward<decltype(rg)>(rg),
+			AlphaOptimized(),
+			std::forward<decltype(customSampler)>(customSampler),
+			std::forward<decltype(rng)>(rng), m_spp);
+			renderInternalDim(integrator, pathResult);
+		} else if (m_typeIntegrator == "cv_pixel_alphaOpt_antithetic") {
+			auto seed = std::random_device()();
+			std::mt19937_64 rng (seed);
+			auto rg = region_generator(std::forward<NESTEDQ>(nestedQ), errorEstimator(), m_maxIterations);
+
+			auto integrator = integrator_stratified_pixel_control_variates_antithetic(std::forward<decltype(rg)>(rg),
 			AlphaOptimized(),
 			std::forward<decltype(customSampler)>(customSampler),
 			std::forward<decltype(rng)>(rng), m_spp);

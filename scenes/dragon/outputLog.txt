@@ -1,0 +1,25 @@
+2021-11-16 12:32:59 INFO  main [mitsuba.cpp:274] Mitsuba version 0.6.0 (Linux, 64 bit), Copyright (c) 2017 Wenzel Jakob
+2021-11-16 12:32:59 INFO  main [mitsuba.cpp:377] Parsing scene description from "scene_paper.xml" ..
+2021-11-16 12:32:59 INFO  main [PluginManager] Loading plugin "plugins/quad.so" ..
+2021-11-16 12:32:59 INFO  main [PluginManager] Loading plugin "plugins/independent.so" ..
+2021-11-16 12:32:59 INFO  main [PluginManager] Loading plugin "plugins/box.so" ..
+2021-11-16 12:32:59 INFO  main [PluginManager] Loading plugin "plugins/hdrfilm.so" ..
+2021-11-16 12:32:59 INFO  main [PluginManager] Loading plugin "plugins/perspective.so" ..
+2021-11-16 12:32:59 INFO  main [PluginManager] Loading plugin "plugins/diffuse.so" ..
+2021-11-16 12:32:59 INFO  main [PluginManager] Loading plugin "plugins/rectangle.so" ..
+2021-11-16 12:32:59 INFO  main [PluginManager] Loading plugin "plugins/bitmap.so" ..
+2021-11-16 12:32:59 INFO  main [BitmapTexture] Loading texture "gradient3.png"
+2021-11-16 12:32:59 INFO  main [PluginManager] Loading plugin "plugins/lanczos.so" ..
+2021-11-16 12:32:59 INFO  main [PluginManager] Loading plugin "plugins/scale.so" ..
+2021-11-16 12:32:59 INFO  main [PluginManager] Loading plugin "plugins/areacolor.so" ..
+2021-11-16 12:32:59 INFO  main [PluginManager] Loading plugin "plugins/phong.so" ..
+2021-11-16 12:32:59 INFO  main [PluginManager] Loading plugin "plugins/ply.so" ..
+2021-11-16 12:32:59 INFO  main [PLYLoader] Loading geometry from "dragon.ply" ..
+2021-11-16 12:33:00 INFO  main [PLYLoader] "dragon": Loaded 7219045 triangles, 3609600 vertices (165.2 MiB in 1019 ms).
+2021-11-16 12:33:01 INFO  ren0 [KDTreeBase] Constructing a SAH kd-tree (7219047 primitives) ..
+2021-11-16 12:33:25 INFO  ren0 [KDTreeBase] Finished -- took 23739 ms.
+2021-11-16 12:33:26 INFO  ren0 [PSACV] SPP 581.250000   SPP_CV 38.750000  SCALE 0.062500
+2021-11-16 12:33:26 INFO  ren0 [PluginManager] Loading plugin "plugins/pathQuadrature.so" ..
+2021-11-16 12:33:26 INFO  ren0 [PSACV] Using 137410 iterations from 38.750000 spp requested for CV init
+2021-11-16 12:33:26 INFO  ren0 [PSACV] Using simpsons-trapezoidal rules
+2021-11-16 12:33:26 INFO  ren0 [PSACV] Launching
