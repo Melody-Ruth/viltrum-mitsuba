@@ -127,8 +127,13 @@ public:
 	template<typename F, typename Float, std::size_t DIM, typename RNG>
 	auto sampleOpposite(const F& f, const Range<Float,DIM>& range, RNG& rng, std::array<Float,DIM> otherSample) const {
 		std::array<Float,DIM> sample;
-	    for (std::size_t i=0;i<DIM;++i) {
+		//cout << "Dimension: " << DIM << endl;
+		for (std::size_t i=0;i<2;++i) {
 		    std::uniform_real_distribution<Float> dis(range.min(i),range.max(i));
+		    sample[i] = range.max(i) - (otherSample[i]-range.min(i));
+		    //sample[i] = dis(rng);
+		}
+	    for (std::size_t i=2;i<DIM;++i) {
 		    sample[i] = range.max(i) - (otherSample[i]-range.min(i));
 		    //sample[i] = dis(rng);
 		}
@@ -437,6 +442,7 @@ public:
 		m_maxIterations = (m_spp_cv * m_total_bins) / samples_per_iteration;
 		m_maxIterationsQuad = (m_spp * m_total_bins) / samples_per_iteration;
 
+		Log(EInfo, "Samples per iteration %d", samples_per_iteration);
 		Log(EInfo, "Using %d iterations from %f spp requested for CV init", m_maxIterations, m_spp_cv);
 
 		if (m_higherQuadRule == "boole") {
@@ -626,6 +632,15 @@ public:
 
 			Log(EInfo, "Total samples used :  Init(%d)  Iterations(%d)  Total(%f)", samples_backup, wrapper.samples(), ((m_spp_cv < 0) ? m_spp : m_spp_cv + m_spp) * m_total_bins);
 			statistic_totalSamples += samples_backup + wrapper.samples();
+
+			float avgPixel = 0;
+			for(int px=0; px<size_image.x; px++) {
+				for(int py=0; py<size_image.y; py++) {
+					avgPixel += std::sqrt(data_pixels[px][py].spectrum()[0] * data_pixels[px][py].spectrum()[0] + data_pixels[px][py].spectrum()[1] * data_pixels[px][py].spectrum()[1] + data_pixels[px][py].spectrum()[2] * data_pixels[px][py].spectrum()[2]);
+				}
+			}
+			avgPixel /= (size_image.x * size_image.y);
+			cout << "Average pixel: " << avgPixel << endl;
 
 			if (pathResult == "") {
 				ref<ImageBlock> result = new ImageBlock(Bitmap::ESpectrum, realSizeImage, nullptr);

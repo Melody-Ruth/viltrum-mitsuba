@@ -1,0 +1,66 @@
+2021-11-23 15:30:13 INFO  main [mitsuba.cpp:274] Mitsuba version 0.6.0 (Linux, 64 bit), Copyright (c) 2017 Wenzel Jakob
+2021-11-23 15:30:13 INFO  main [mitsuba.cpp:377] Parsing scene description from "scene_paper.xml" ..
+2021-11-23 15:30:13 INFO  main [PluginManager] Loading plugin "plugins/quad.so" ..
+2021-11-23 15:30:13 INFO  main [PluginManager] Loading plugin "plugins/independent.so" ..
+2021-11-23 15:30:13 INFO  main [PluginManager] Loading plugin "plugins/box.so" ..
+2021-11-23 15:30:13 INFO  main [PluginManager] Loading plugin "plugins/hdrfilm.so" ..
+2021-11-23 15:30:13 INFO  main [PluginManager] Loading plugin "plugins/perspective.so" ..
+2021-11-23 15:30:13 INFO  main [PluginManager] Loading plugin "plugins/diffuse.so" ..
+2021-11-23 15:30:13 INFO  main [PluginManager] Loading plugin "plugins/rectangle.so" ..
+2021-11-23 15:30:13 INFO  main [PluginManager] Loading plugin "plugins/bitmap.so" ..
+2021-11-23 15:30:13 INFO  main [BitmapTexture] Loading texture "gradient3.png"
+2021-11-23 15:30:13 INFO  main [PluginManager] Loading plugin "plugins/lanczos.so" ..
+2021-11-23 15:30:13 INFO  main [PluginManager] Loading plugin "plugins/scale.so" ..
+2021-11-23 15:30:13 INFO  main [PluginManager] Loading plugin "plugins/areacolor.so" ..
+2021-11-23 15:30:13 INFO  main [PluginManager] Loading plugin "plugins/phong.so" ..
+2021-11-23 15:30:13 INFO  main [PluginManager] Loading plugin "plugins/ply.so" ..
+2021-11-23 15:30:13 INFO  main [PLYLoader] Loading geometry from "dragon.ply" ..
+2021-11-23 15:30:14 INFO  main [PLYLoader] "dragon": Loaded 7219045 triangles, 3609600 vertices (165.2 MiB in 1150 ms).
+2021-11-23 15:30:16 INFO  ren0 [KDTreeBase] Constructing a SAH kd-tree (7219047 primitives) ..
+2021-11-23 15:30:52 INFO  ren0 [KDTreeBase] Finished -- took 36591 ms.
+2021-11-23 15:30:54 INFO  ren0 [PSACV] SPP 145.312500   SPP_CV 9.687500  SCALE 0.062500
+2021-11-23 15:30:54 INFO  ren0 [PluginManager] Loading plugin "plugins/pathQuadrature.so" ..
+2021-11-23 15:30:54 INFO  ren0 [PSACV] Samples per iteration 54
+2021-11-23 15:30:54 INFO  ren0 [PSACV] Using 34352 iterations from 9.687500 spp requested for CV init
+2021-11-23 15:30:54 INFO  ren0 [PSACV] Using simpsons-trapezoidal rules
+2021-11-23 15:30:54 INFO  ren0 [PSACV] Launching
+Inside init
+0, 1 and 0, 1 and 0, 1 and 0, 1 and Region results: 
+Number of regions total: 34353
+Number of pixels total: 191488
+2021-11-23 15:32:07 INFO  ren0 [PSACV] Done
+2021-11-23 15:32:07 INFO  ren0 [PSACV] Total samples used :  Init(0)  Iterations(29620849)  Total(29680640.000000)
+2021-11-23 15:32:07 INFO  ren0 [PSACV] [TIME *] Sampling routine callback 21998 milliseconds
+2021-11-23 15:32:07 INFO  ren0 [RenderJob] Render time: 1.8530m
+2021-11-23 15:32:07 INFO  ren0 [HDRFilm] Writing image to "/home/melody/Documents/viltrum-mitsuba/scenes/dragon/scene_paper.exr" ..
+2021-11-23 15:32:07 INFO  main [statistics.cpp:142] Statistics:
+------------------------------------------------------------
+ * Loaded plugins :
+    -  plugins/areacolor.so [Area light Color]
+    -  plugins/bitmap.so [Bitmap texture]
+    -  plugins/box.so [Box filter]
+    -  plugins/diffuse.so [Smooth diffuse BRDF]
+    -  plugins/hdrfilm.so [High dynamic range film]
+    -  plugins/independent.so [Independent sampler]
+    -  plugins/lanczos.so [Lanczos Sinc filter]
+    -  plugins/pathQuadrature.so [Path tracer quadrature]
+    -  plugins/perspective.so [Perspective camera]
+    -  plugins/phong.so [Modified Phong BRDF]
+    -  plugins/ply.so [PLY mesh loader]
+    -  plugins/quad.so [Primary-Space Adaptive Control Variates using Piecewise Polynomials Approximations]
+    -  plugins/rectangle.so [Rectangle intersection primitive]
+    -  plugins/scale.so [Scaling texture]
+
+  * General :
+    -  Normal rays traced : 59.237 M
+
+  * Path tracer Quadrature :
+    -  Average path length : 1.08 (32.08 M / 29.62 M)
+
+  * Primary-Space Adaptive CV :
+    -  Total number of samples : 29.621 M
+
+  * Texture system :
+    -  Cumulative MIP map memory allocations : 2 MiB
+    -  Filtered texture lookups : 0.00 % (0.00 of 3.55 M)
+------------------------------------------------------------
