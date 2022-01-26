@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <scene version="0.6.0">
 	<integrator type="quad">
-		<float name="spp" value="1240"/>
+		<float name="spp" value="155"/>
 		<integer name="n_dims" value="4"/>
 		<float name="spp_cv" value="-1"/>
 		<float name="scaleSpp" value="16"/>
@@ -72,7 +72,10 @@
 			</texture>
         </emitter>
     </shape>
-
+	<emitter type="point">
+        <point name="position" x="0.05" y="0.21" z="0"/>
+        <spectrum name="intensity" value="100, 100, 50"/>
+    </emitter>
     <shape type="ply">
 		<string name="filename" value="dragon.ply"/>
 		<transform name="toWorld">

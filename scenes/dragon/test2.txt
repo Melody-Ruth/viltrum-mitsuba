@@ -1,39 +1,58 @@
-2021-11-23 15:30:13 INFO  main [mitsuba.cpp:274] Mitsuba version 0.6.0 (Linux, 64 bit), Copyright (c) 2017 Wenzel Jakob
-2021-11-23 15:30:13 INFO  main [mitsuba.cpp:377] Parsing scene description from "scene_paper.xml" ..
-2021-11-23 15:30:13 INFO  main [PluginManager] Loading plugin "plugins/quad.so" ..
-2021-11-23 15:30:13 INFO  main [PluginManager] Loading plugin "plugins/independent.so" ..
-2021-11-23 15:30:13 INFO  main [PluginManager] Loading plugin "plugins/box.so" ..
-2021-11-23 15:30:13 INFO  main [PluginManager] Loading plugin "plugins/hdrfilm.so" ..
-2021-11-23 15:30:13 INFO  main [PluginManager] Loading plugin "plugins/perspective.so" ..
-2021-11-23 15:30:13 INFO  main [PluginManager] Loading plugin "plugins/diffuse.so" ..
-2021-11-23 15:30:13 INFO  main [PluginManager] Loading plugin "plugins/rectangle.so" ..
-2021-11-23 15:30:13 INFO  main [PluginManager] Loading plugin "plugins/bitmap.so" ..
-2021-11-23 15:30:13 INFO  main [BitmapTexture] Loading texture "gradient3.png"
-2021-11-23 15:30:13 INFO  main [PluginManager] Loading plugin "plugins/lanczos.so" ..
-2021-11-23 15:30:13 INFO  main [PluginManager] Loading plugin "plugins/scale.so" ..
-2021-11-23 15:30:13 INFO  main [PluginManager] Loading plugin "plugins/areacolor.so" ..
-2021-11-23 15:30:13 INFO  main [PluginManager] Loading plugin "plugins/phong.so" ..
-2021-11-23 15:30:13 INFO  main [PluginManager] Loading plugin "plugins/ply.so" ..
-2021-11-23 15:30:13 INFO  main [PLYLoader] Loading geometry from "dragon.ply" ..
-2021-11-23 15:30:14 INFO  main [PLYLoader] "dragon": Loaded 7219045 triangles, 3609600 vertices (165.2 MiB in 1150 ms).
-2021-11-23 15:30:16 INFO  ren0 [KDTreeBase] Constructing a SAH kd-tree (7219047 primitives) ..
-2021-11-23 15:30:52 INFO  ren0 [KDTreeBase] Finished -- took 36591 ms.
-2021-11-23 15:30:54 INFO  ren0 [PSACV] SPP 145.312500   SPP_CV 9.687500  SCALE 0.062500
-2021-11-23 15:30:54 INFO  ren0 [PluginManager] Loading plugin "plugins/pathQuadrature.so" ..
-2021-11-23 15:30:54 INFO  ren0 [PSACV] Samples per iteration 54
-2021-11-23 15:30:54 INFO  ren0 [PSACV] Using 34352 iterations from 9.687500 spp requested for CV init
-2021-11-23 15:30:54 INFO  ren0 [PSACV] Using simpsons-trapezoidal rules
-2021-11-23 15:30:54 INFO  ren0 [PSACV] Launching
+2022-01-24 20:39:20 INFO  main [mitsuba.cpp:274] Mitsuba version 0.6.0 (Linux, 64 bit), Copyright (c) 2017 Wenzel Jakob
+2022-01-24 20:39:20 INFO  main [mitsuba.cpp:377] Parsing scene description from "scene_paper.xml" ..
+2022-01-24 20:39:20 INFO  main [PluginManager] Loading plugin "plugins/quad.so" ..
+2022-01-24 20:39:20 INFO  main [PluginManager] Loading plugin "plugins/independent.so" ..
+2022-01-24 20:39:20 INFO  main [PluginManager] Loading plugin "plugins/box.so" ..
+2022-01-24 20:39:20 INFO  main [PluginManager] Loading plugin "plugins/hdrfilm.so" ..
+2022-01-24 20:39:20 INFO  main [PluginManager] Loading plugin "plugins/perspective.so" ..
+2022-01-24 20:39:20 INFO  main [PluginManager] Loading plugin "plugins/diffuse.so" ..
+2022-01-24 20:39:20 INFO  main [PluginManager] Loading plugin "plugins/rectangle.so" ..
+2022-01-24 20:39:20 INFO  main [PluginManager] Loading plugin "plugins/bitmap.so" ..
+2022-01-24 20:39:20 INFO  main [BitmapTexture] Loading texture "gradient3.png"
+2022-01-24 20:39:20 INFO  main [PluginManager] Loading plugin "plugins/lanczos.so" ..
+2022-01-24 20:39:20 INFO  main [PluginManager] Loading plugin "plugins/scale.so" ..
+2022-01-24 20:39:20 INFO  main [PluginManager] Loading plugin "plugins/areacolor.so" ..
+2022-01-24 20:39:20 INFO  main [PluginManager] Loading plugin "plugins/point.so" ..
+2022-01-24 20:39:20 INFO  main [PluginManager] Loading plugin "plugins/phong.so" ..
+2022-01-24 20:39:20 INFO  main [PluginManager] Loading plugin "plugins/ply.so" ..
+2022-01-24 20:39:20 INFO  main [PLYLoader] Loading geometry from "dragon.ply" ..
+2022-01-24 20:39:22 INFO  main [PLYLoader] "dragon": Loaded 7219045 triangles, 3609600 vertices (165.2 MiB in 1979 ms).
+2022-01-24 20:39:24 INFO  ren0 [KDTreeBase] Constructing a SAH kd-tree (7219047 primitives) ..
+2022-01-24 20:39:54 INFO  ren0 [KDTreeBase] Finished -- took 30039 ms.
+2022-01-24 20:39:56 INFO  ren0 [PSACV] SPP 145.312500   SPP_CV 9.687500  SCALE 0.062500
+2022-01-24 20:39:56 INFO  ren0 [PluginManager] Loading plugin "plugins/pathQuadrature.so" ..
+2022-01-24 20:39:56 INFO  ren0 [PSACV] Samples per iteration 54
+2022-01-24 20:39:56 INFO  ren0 [PSACV] Using 34352 iterations from 9.687500 spp requested for CV init
+2022-01-24 20:39:56 INFO  ren0 [PSACV] Using simpsons-trapezoidal rules
+2022-01-24 20:39:56 INFO  ren0 [PSACV] Launching
+Bin dimensions: 2
+0, 1
+0, 1
+0, 1
+0, 1
 Inside init
 0, 1 and 0, 1 and 0, 1 and 0, 1 and Region results: 
 Number of regions total: 34353
+0, 0, 0
 Number of pixels total: 191488
-2021-11-23 15:32:07 INFO  ren0 [PSACV] Done
-2021-11-23 15:32:07 INFO  ren0 [PSACV] Total samples used :  Init(0)  Iterations(29620849)  Total(29680640.000000)
-2021-11-23 15:32:07 INFO  ren0 [PSACV] [TIME *] Sampling routine callback 21998 milliseconds
-2021-11-23 15:32:07 INFO  ren0 [RenderJob] Render time: 1.8530m
-2021-11-23 15:32:07 INFO  ren0 [HDRFilm] Writing image to "/home/melody/Documents/viltrum-mitsuba/scenes/dragon/scene_paper.exr" ..
-2021-11-23 15:32:07 INFO  main [statistics.cpp:142] Statistics:
+Red???
+Their estimate(?): 20.5914
+Another possibility: 0.142009
+residual: 0.00352109
+Blue??
+Their estimate(?): 2.33615e-05
+Another possibility: 1.61114e-07
+residual: 4.79602e-08
+Tested 191488pixels
+Of those, 116488 had non-zero values
+18554683 zeros, 822500 fives, and 9266 that are neither 0 nor 5
+2022-01-24 20:41:00 INFO  ren0 [PSACV] Done
+2022-01-24 20:41:00 INFO  ren0 [PSACV] Total samples used :  Init(0)  Iterations(29620852)  Total(29680640.000000)
+Average pixel: 0.0908092
+2022-01-24 20:41:00 INFO  ren0 [PSACV] [TIME *] Sampling routine callback 17085 milliseconds
+2022-01-24 20:41:00 INFO  ren0 [RenderJob] Render time: 1.5959m
+2022-01-24 20:41:00 INFO  ren0 [HDRFilm] Writing image to "/home/melody/Documents/viltrum-mitsuba/scenes/dragon/scene_paper.exr" ..
+2022-01-24 20:41:00 INFO  main [statistics.cpp:142] Statistics:
 ------------------------------------------------------------
  * Loaded plugins :
     -  plugins/areacolor.so [Area light Color]
@@ -47,6 +66,7 @@ Number of pixels total: 191488
     -  plugins/perspective.so [Perspective camera]
     -  plugins/phong.so [Modified Phong BRDF]
     -  plugins/ply.so [PLY mesh loader]
+    -  plugins/point.so [Point emitter]
     -  plugins/quad.so [Primary-Space Adaptive Control Variates using Piecewise Polynomials Approximations]
     -  plugins/rectangle.so [Rectangle intersection primitive]
     -  plugins/scale.so [Scaling texture]
@@ -62,5 +82,5 @@ Number of pixels total: 191488
 
   * Texture system :
     -  Cumulative MIP map memory allocations : 2 MiB
-    -  Filtered texture lookups : 0.00 % (0.00 of 3.55 M)
+    -  Filtered texture lookups : 0.00 % (0.00 of 3.54 M)
 ------------------------------------------------------------
