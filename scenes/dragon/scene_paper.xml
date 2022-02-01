@@ -45,9 +45,9 @@
 
 
     <shape type="rectangle">
-        <bsdf type="diffuse">
-
-        </bsdf>
+        <bsdf type="phong">
+			<float name="exponent" value="20" />
+		</bsdf>
         <transform name="toWorld">
             <rotate x="1" angle="-90"/>
             <scale x="10" y="1" z="10"/>
@@ -76,18 +76,4 @@
         <point name="position" x="0.05" y="0.21" z="0"/>
         <spectrum name="intensity" value="100, 100, 50"/>
     </emitter>
-    <shape type="ply">
-		<string name="filename" value="dragon.ply"/>
-		<transform name="toWorld">
-			<scale value=".02"/>
-			<rotate z="1" angle="-7"/>
-			<rotate y="1" angle="35"/>
-			<translate z="-.28" x="-.20" y="0.31"/>
-			<translate z="-.7"/>
-		</transform>
-
-		<bsdf type="phong">
-			<float name="exponent" value="50" />
-		</bsdf>
-	</shape>
 </scene>

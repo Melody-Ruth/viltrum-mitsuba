@@ -2,8 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import math
 from mpl_toolkits import mplot3d
-
-x, y, z1, z2, z3 = np.loadtxt('graph5.txt', delimiter=',', unpack=True)
+x, y, z1, z2, z3 = np.loadtxt('no_dragon_near_light_green.txt', delimiter=',', unpack=True)
 #print(max(z))
 #z1 /= max(abs(z1))
 #z2 /= max(abs(z2))
@@ -22,20 +21,20 @@ x, y, z1, z2, z3 = np.loadtxt('graph5.txt', delimiter=',', unpack=True)
 
 fig = plt.figure()
 ax = plt.axes(projection='3d')
-ax.scatter3D(x, y, z1, label='Actual integrand for region 54. Dimensions are i, j, k, and l. j is on the x axis and l is on the y axis. I and k are fixed at 0.0749144 and 0.346793, respectively.')
-ax.scatter3D(x, y, z2, label='Polynomial approximation for region 54. Dimensions are i, j, k, and l. j is on the x axis and l is on the y axis. I and k are fixed at 0.0749144 and 0.346793, respectively.')
+ax.scatter3D(x, y, z1, label='Actual integrand for region 166. Dimensions are i, j, k, and l. i is on the x axis and k is on the y axis. \nJ and L are fixed at 0.0454583 and 0.831627, respectively. (Pixel 226, 17)')
+ax.scatter3D(x, y, z2, label='Polynomial approximation for region 166. Dimensions are i, j, k, and l. i is on the x axis and k is on the y axis. \nJ and L are fixed at 0.0454583 and 0.831627, respectively. (Pixel 226, 17)')
 plt.legend()
 plt.show()
 
 fig2 = plt.figure()
 ax2 = plt.axes(projection='3d')
-ax2.scatter3D(x, y, z2, label='Polynomial approximation for region 54. Dimensions are i, j, k, and l. j is on the x axis and l is on the y axis. I and k are fixed at 0.0749144 and 0.346793, respectively.')
+ax2.scatter3D(x, y, z2, label='Polynomial approximation for region 166. Dimensions are i, j, k, and l. i is on the x axis and k is on the y axis. \nJ and L are fixed at 0.0454583 and 0.831627, respectively. (Pixel 226, 17)')
 plt.legend()
 plt.show()
 
 fig3 = plt.figure()
 ax3 = plt.axes(projection='3d')
-ax3.scatter3D(x, y, z3, label='Residual for region 54. Dimensions are i, j, k, and l. j is on the x axis and l is on the y axis. I and k are fixed at 0.0749144 and 0.346793, respectively.')
+ax3.scatter3D(x, y, z3, label='Residual for region 166. Dimensions are i, j, k, and l. i is on the x axis and k is on the y axis. \nJ and L are fixed at 0.0454583 and 0.831627, respectively. (Pixel 226, 17)')
 plt.legend()
 plt.show()
 

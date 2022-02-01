@@ -301,34 +301,34 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
   177 |       auto [value,sample] = sampler.sample(f,local_range,rng);
       |            ^
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h: In member function ‘void viltrum::IntegratorStratifiedPixelControlVariates<RegionGenerator, AlphaCalculator, Sampler, RNG>::integrate(Bins&, const std::array<long unsigned int, DIMBINS>&, const F&, const viltrum::Range<Float, DIM>&) const’:
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:319:15: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
-  319 |          auto [tempFValue] = f(graphingSample, rng, true);
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:317:15: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
+  317 |          auto [tempFValue] = f(graphingSample, rng, true);
       |               ^
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:349:11: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
-  349 |      auto [value,sample] = sampler.sample(f,local_range,rng);
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:352:11: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
+  352 |      auto [value,sample] = sampler.sample(f,local_range,rng);
       |           ^
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:390:10: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
-  390 |     auto [value,sample] = sampler.sample(f,local_range,rng);
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:437:10: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
+  437 |     auto [value,sample] = sampler.sample(f,local_range,rng);
       |          ^
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h: In member function ‘void viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<RegionGenerator, AlphaCalculator, Sampler, RNG>::integrate(Bins&, const std::array<long unsigned int, DIMBINS>&, const F&, const viltrum::Range<Float, DIM>&) const’:
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:519:11: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
-  519 |      auto [value,sample] = sampler.sample(f,local_range,rng);
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:572:11: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
+  572 |      auto [value,sample] = sampler.sample(f,local_range,rng);
       |           ^
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:521:11: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
-  521 |      auto [value2,sample2] = sampler.sampleOpposite(f,local_range,rng,sample);
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:574:11: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
+  574 |      auto [value2,sample2] = sampler.sampleOpposite(f,local_range,rng,sample);
       |           ^
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:527:11: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
-  527 |      auto [value,sample] = sampler.sample(f,local_range,rng);
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:580:11: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
+  580 |      auto [value,sample] = sampler.sample(f,local_range,rng);
       |           ^
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:537:10: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
-  537 |     auto [value,sample] = sampler.sample(f,local_range,rng);
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:590:10: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
+  590 |     auto [value,sample] = sampler.sample(f,local_range,rng);
       |          ^
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h: In member function ‘void viltrum::IntegratorStratifiedRegionControlVariates<RegionGenerator, AlphaCalculator, Sampler, RNG>::integrate(Bins&, const std::array<long unsigned int, DIMBINS>&, const F&, const viltrum::Range<Float, DIM>&) const’:
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:610:11: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
-  610 |      auto [value,sample] = sampler.sample(f,pixel_range,rng);
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:663:11: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
+  663 |      auto [value,sample] = sampler.sample(f,pixel_range,rng);
       |           ^
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:618:10: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
-  618 |     auto [value,sample] = sampler.sample(f,r.range(),rng);
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:671:10: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
+  671 |     auto [value,sample] = sampler.sample(f,r.range(),rng);
       |          ^
 In file included from src/integrators/quad/quadrature.cpp:25:
 src/integrators/quad/../../../ext/viltrum/quadrature/munoz2014.h: In member function ‘void viltrum::IntegratorBinsMunoz2014::integrate(Bins&, const std::array<long unsigned int, DIMBINS>&, const F&, const viltrum::Range<Float, DIM>&) const’:
@@ -708,11 +708,17 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:262:13: warning: variable ‘pixel’ set but not used [-Wunused-but-set-variable]
   262 |   for (auto pixel : multidimensional_range(bin_resolution)) {
       |             ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:384:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  384 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:439:70: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+  439 |     if (pixel[0] == 226 && pixel[1] == 17 && (firstR == -1 || firstR == r)) {
+      |                                                               ~~~~~~~^~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:279:11: warning: unused variable ‘iStep’ [-Wunused-variable]
+  279 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
+      |           ^~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:430:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  430 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:385:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  385 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:431:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  431 |    int numOther = 0;
       |        ^~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 3; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 3; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 3>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 3; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -745,11 +751,17 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:262:13: warning: variable ‘pixel’ set but not used [-Wunused-but-set-variable]
   262 |   for (auto pixel : multidimensional_range(bin_resolution)) {
       |             ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:384:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  384 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:439:70: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+  439 |     if (pixel[0] == 226 && pixel[1] == 17 && (firstR == -1 || firstR == r)) {
+      |                                                               ~~~~~~~^~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:279:11: warning: unused variable ‘iStep’ [-Wunused-variable]
+  279 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
+      |           ^~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:430:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  430 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:385:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  385 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:431:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  431 |    int numOther = 0;
       |        ^~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 3; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 3; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 3>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 3; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -782,11 +794,17 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:262:13: warning: variable ‘pixel’ set but not used [-Wunused-but-set-variable]
   262 |   for (auto pixel : multidimensional_range(bin_resolution)) {
       |             ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:384:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  384 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:439:70: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+  439 |     if (pixel[0] == 226 && pixel[1] == 17 && (firstR == -1 || firstR == r)) {
+      |                                                               ~~~~~~~^~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:279:11: warning: unused variable ‘iStep’ [-Wunused-variable]
+  279 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
+      |           ^~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:430:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  430 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:385:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  385 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:431:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  431 |    int numOther = 0;
       |        ^~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 4; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 4; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 4>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 4; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -819,11 +837,17 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:262:13: warning: variable ‘pixel’ set but not used [-Wunused-but-set-variable]
   262 |   for (auto pixel : multidimensional_range(bin_resolution)) {
       |             ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:384:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  384 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:439:70: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+  439 |     if (pixel[0] == 226 && pixel[1] == 17 && (firstR == -1 || firstR == r)) {
+      |                                                               ~~~~~~~^~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:279:11: warning: unused variable ‘iStep’ [-Wunused-variable]
+  279 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
+      |           ^~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:430:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  430 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:385:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  385 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:431:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  431 |    int numOther = 0;
       |        ^~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 4; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 4; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 4>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 4; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -856,11 +880,17 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:262:13: warning: variable ‘pixel’ set but not used [-Wunused-but-set-variable]
   262 |   for (auto pixel : multidimensional_range(bin_resolution)) {
       |             ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:384:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  384 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:439:70: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+  439 |     if (pixel[0] == 226 && pixel[1] == 17 && (firstR == -1 || firstR == r)) {
+      |                                                               ~~~~~~~^~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:279:11: warning: unused variable ‘iStep’ [-Wunused-variable]
+  279 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
+      |           ^~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:430:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  430 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:385:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  385 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:431:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  431 |    int numOther = 0;
       |        ^~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 5; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 5; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 5>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 5; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -893,11 +923,17 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:262:13: warning: variable ‘pixel’ set but not used [-Wunused-but-set-variable]
   262 |   for (auto pixel : multidimensional_range(bin_resolution)) {
       |             ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:384:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  384 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:439:70: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+  439 |     if (pixel[0] == 226 && pixel[1] == 17 && (firstR == -1 || firstR == r)) {
+      |                                                               ~~~~~~~^~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:279:11: warning: unused variable ‘iStep’ [-Wunused-variable]
+  279 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
+      |           ^~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:430:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  430 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:385:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  385 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:431:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  431 |    int numOther = 0;
       |        ^~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 5; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 5; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 5>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 5; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -930,11 +966,17 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:262:13: warning: variable ‘pixel’ set but not used [-Wunused-but-set-variable]
   262 |   for (auto pixel : multidimensional_range(bin_resolution)) {
       |             ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:384:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  384 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:439:70: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+  439 |     if (pixel[0] == 226 && pixel[1] == 17 && (firstR == -1 || firstR == r)) {
+      |                                                               ~~~~~~~^~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:279:11: warning: unused variable ‘iStep’ [-Wunused-variable]
+  279 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
+      |           ^~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:430:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  430 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:385:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  385 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:431:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  431 |    int numOther = 0;
       |        ^~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 6; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 6; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 6>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 6; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -967,11 +1009,17 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:262:13: warning: variable ‘pixel’ set but not used [-Wunused-but-set-variable]
   262 |   for (auto pixel : multidimensional_range(bin_resolution)) {
       |             ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:384:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  384 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:439:70: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+  439 |     if (pixel[0] == 226 && pixel[1] == 17 && (firstR == -1 || firstR == r)) {
+      |                                                               ~~~~~~~^~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:279:11: warning: unused variable ‘iStep’ [-Wunused-variable]
+  279 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
+      |           ^~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:430:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  430 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:385:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  385 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:431:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  431 |    int numOther = 0;
       |        ^~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 6; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 6; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 6>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 6; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -1004,11 +1052,17 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:262:13: warning: variable ‘pixel’ set but not used [-Wunused-but-set-variable]
   262 |   for (auto pixel : multidimensional_range(bin_resolution)) {
       |             ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:384:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  384 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:439:70: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+  439 |     if (pixel[0] == 226 && pixel[1] == 17 && (firstR == -1 || firstR == r)) {
+      |                                                               ~~~~~~~^~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:279:11: warning: unused variable ‘iStep’ [-Wunused-variable]
+  279 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
+      |           ^~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:430:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  430 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:385:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  385 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:431:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  431 |    int numOther = 0;
       |        ^~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 7; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 7; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 7>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 7; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -1041,11 +1095,17 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:262:13: warning: variable ‘pixel’ set but not used [-Wunused-but-set-variable]
   262 |   for (auto pixel : multidimensional_range(bin_resolution)) {
       |             ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:384:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  384 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:439:70: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+  439 |     if (pixel[0] == 226 && pixel[1] == 17 && (firstR == -1 || firstR == r)) {
+      |                                                               ~~~~~~~^~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:279:11: warning: unused variable ‘iStep’ [-Wunused-variable]
+  279 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
+      |           ^~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:430:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  430 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:385:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  385 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:431:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  431 |    int numOther = 0;
       |        ^~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 7; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 7; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 7>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 7; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -1078,11 +1138,17 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:262:13: warning: variable ‘pixel’ set but not used [-Wunused-but-set-variable]
   262 |   for (auto pixel : multidimensional_range(bin_resolution)) {
       |             ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:384:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  384 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:439:70: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+  439 |     if (pixel[0] == 226 && pixel[1] == 17 && (firstR == -1 || firstR == r)) {
+      |                                                               ~~~~~~~^~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:279:11: warning: unused variable ‘iStep’ [-Wunused-variable]
+  279 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
+      |           ^~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:430:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  430 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:385:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  385 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:431:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  431 |    int numOther = 0;
       |        ^~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 2; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 2; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 2>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 2; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -1610,11 +1676,17 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:262:13: warning: variable ‘pixel’ set but not used [-Wunused-but-set-variable]
   262 |   for (auto pixel : multidimensional_range(bin_resolution)) {
       |             ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:384:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  384 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:439:70: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+  439 |     if (pixel[0] == 226 && pixel[1] == 17 && (firstR == -1 || firstR == r)) {
+      |                                                               ~~~~~~~^~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:279:11: warning: unused variable ‘iStep’ [-Wunused-variable]
+  279 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
+      |           ^~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:430:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  430 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:385:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  385 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:431:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  431 |    int numOther = 0;
       |        ^~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 3; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 3; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 3>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 3; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -1647,11 +1719,17 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:262:13: warning: variable ‘pixel’ set but not used [-Wunused-but-set-variable]
   262 |   for (auto pixel : multidimensional_range(bin_resolution)) {
       |             ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:384:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  384 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:439:70: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+  439 |     if (pixel[0] == 226 && pixel[1] == 17 && (firstR == -1 || firstR == r)) {
+      |                                                               ~~~~~~~^~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:279:11: warning: unused variable ‘iStep’ [-Wunused-variable]
+  279 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
+      |           ^~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:430:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  430 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:385:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  385 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:431:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  431 |    int numOther = 0;
       |        ^~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 3; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 3; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 3>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 3; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -1684,11 +1762,17 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:262:13: warning: variable ‘pixel’ set but not used [-Wunused-but-set-variable]
   262 |   for (auto pixel : multidimensional_range(bin_resolution)) {
       |             ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:384:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  384 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:439:70: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+  439 |     if (pixel[0] == 226 && pixel[1] == 17 && (firstR == -1 || firstR == r)) {
+      |                                                               ~~~~~~~^~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:279:11: warning: unused variable ‘iStep’ [-Wunused-variable]
+  279 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
+      |           ^~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:430:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  430 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:385:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  385 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:431:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  431 |    int numOther = 0;
       |        ^~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 4; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 4; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 4>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 4; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -1721,11 +1805,17 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:262:13: warning: variable ‘pixel’ set but not used [-Wunused-but-set-variable]
   262 |   for (auto pixel : multidimensional_range(bin_resolution)) {
       |             ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:384:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  384 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:439:70: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+  439 |     if (pixel[0] == 226 && pixel[1] == 17 && (firstR == -1 || firstR == r)) {
+      |                                                               ~~~~~~~^~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:279:11: warning: unused variable ‘iStep’ [-Wunused-variable]
+  279 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
+      |           ^~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:430:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  430 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:385:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  385 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:431:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  431 |    int numOther = 0;
       |        ^~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 4; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 4; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 4>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 4; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -1758,11 +1848,17 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:262:13: warning: variable ‘pixel’ set but not used [-Wunused-but-set-variable]
   262 |   for (auto pixel : multidimensional_range(bin_resolution)) {
       |             ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:384:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  384 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:439:70: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+  439 |     if (pixel[0] == 226 && pixel[1] == 17 && (firstR == -1 || firstR == r)) {
+      |                                                               ~~~~~~~^~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:279:11: warning: unused variable ‘iStep’ [-Wunused-variable]
+  279 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
+      |           ^~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:430:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  430 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:385:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  385 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:431:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  431 |    int numOther = 0;
       |        ^~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 5; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 5; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 5>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 5; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -1795,11 +1891,17 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:262:13: warning: variable ‘pixel’ set but not used [-Wunused-but-set-variable]
   262 |   for (auto pixel : multidimensional_range(bin_resolution)) {
       |             ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:384:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  384 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:439:70: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+  439 |     if (pixel[0] == 226 && pixel[1] == 17 && (firstR == -1 || firstR == r)) {
+      |                                                               ~~~~~~~^~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:279:11: warning: unused variable ‘iStep’ [-Wunused-variable]
+  279 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
+      |           ^~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:430:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  430 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:385:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  385 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:431:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  431 |    int numOther = 0;
       |        ^~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 5; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 5; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 5>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 5; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -1832,11 +1934,17 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:262:13: warning: variable ‘pixel’ set but not used [-Wunused-but-set-variable]
   262 |   for (auto pixel : multidimensional_range(bin_resolution)) {
       |             ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:384:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  384 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:439:70: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+  439 |     if (pixel[0] == 226 && pixel[1] == 17 && (firstR == -1 || firstR == r)) {
+      |                                                               ~~~~~~~^~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:279:11: warning: unused variable ‘iStep’ [-Wunused-variable]
+  279 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
+      |           ^~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:430:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  430 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:385:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  385 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:431:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  431 |    int numOther = 0;
       |        ^~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 6; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 6; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 6>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 6; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -1869,11 +1977,17 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:262:13: warning: variable ‘pixel’ set but not used [-Wunused-but-set-variable]
   262 |   for (auto pixel : multidimensional_range(bin_resolution)) {
       |             ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:384:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  384 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:439:70: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+  439 |     if (pixel[0] == 226 && pixel[1] == 17 && (firstR == -1 || firstR == r)) {
+      |                                                               ~~~~~~~^~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:279:11: warning: unused variable ‘iStep’ [-Wunused-variable]
+  279 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
+      |           ^~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:430:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  430 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:385:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  385 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:431:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  431 |    int numOther = 0;
       |        ^~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 6; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 6; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 6>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 6; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -1906,11 +2020,17 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:262:13: warning: variable ‘pixel’ set but not used [-Wunused-but-set-variable]
   262 |   for (auto pixel : multidimensional_range(bin_resolution)) {
       |             ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:384:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  384 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:439:70: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+  439 |     if (pixel[0] == 226 && pixel[1] == 17 && (firstR == -1 || firstR == r)) {
+      |                                                               ~~~~~~~^~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:279:11: warning: unused variable ‘iStep’ [-Wunused-variable]
+  279 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
+      |           ^~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:430:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  430 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:385:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  385 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:431:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  431 |    int numOther = 0;
       |        ^~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 7; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 7; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 7>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 7; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -1943,11 +2063,17 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:262:13: warning: variable ‘pixel’ set but not used [-Wunused-but-set-variable]
   262 |   for (auto pixel : multidimensional_range(bin_resolution)) {
       |             ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:384:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  384 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:439:70: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+  439 |     if (pixel[0] == 226 && pixel[1] == 17 && (firstR == -1 || firstR == r)) {
+      |                                                               ~~~~~~~^~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:279:11: warning: unused variable ‘iStep’ [-Wunused-variable]
+  279 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
+      |           ^~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:430:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  430 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:385:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  385 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:431:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  431 |    int numOther = 0;
       |        ^~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 7; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 7; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 7>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 7; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -1980,11 +2106,17 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:262:13: warning: variable ‘pixel’ set but not used [-Wunused-but-set-variable]
   262 |   for (auto pixel : multidimensional_range(bin_resolution)) {
       |             ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:384:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  384 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:439:70: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+  439 |     if (pixel[0] == 226 && pixel[1] == 17 && (firstR == -1 || firstR == r)) {
+      |                                                               ~~~~~~~^~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:279:11: warning: unused variable ‘iStep’ [-Wunused-variable]
+  279 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
+      |           ^~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:430:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  430 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:385:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  385 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:431:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  431 |    int numOther = 0;
       |        ^~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 2; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 2; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 2>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 2; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -2156,7 +2288,7 @@ In file included from include/mitsuba/mitsuba.h:55,
                  from include/mitsuba/core/netobject.h:23,
                  from include/mitsuba/render/scene.h:23,
                  from src/integrators/quad/quadrature.cpp:5:
-include/mitsuba/core/point.h: In member function ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 7; bool ISVIDEO = false; STEPPER = viltrum::StepperBinsPerBin<viltrum::StepperMonteCarloUniform<std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> > >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<(! mitsuba::is_integrator<STEPPER>::value)>::type* <anonymous> = 0]’:
+include/mitsuba/core/point.h: In member function ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 7; bool ISVIDEO = true; STEPPER = viltrum::StepperBinsPerBin<viltrum::StepperMonteCarloUniform<std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> > >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<(! mitsuba::is_integrator<STEPPER>::value)>::type* <anonymous> = 0]’:
 include/mitsuba/core/point.h:489:46: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
   489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
       |                                              ^
@@ -2221,7 +2353,7 @@ In file included from include/mitsuba/mitsuba.h:55,
                  from include/mitsuba/core/netobject.h:23,
                  from include/mitsuba/render/scene.h:23,
                  from src/integrators/quad/quadrature.cpp:5:
-include/mitsuba/core/point.h: In member function ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 7; bool ISVIDEO = true; STEPPER = viltrum::StepperBinsPerBin<viltrum::StepperMonteCarloUniform<std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> > >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<(! mitsuba::is_integrator<STEPPER>::value)>::type* <anonymous> = 0]’:
+include/mitsuba/core/point.h: In member function ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 7; bool ISVIDEO = false; STEPPER = viltrum::StepperBinsPerBin<viltrum::StepperMonteCarloUniform<std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> > >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<(! mitsuba::is_integrator<STEPPER>::value)>::type* <anonymous> = 0]’:
 include/mitsuba/core/point.h:489:46: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
   489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
       |                                              ^
@@ -2416,71 +2548,6 @@ In file included from include/mitsuba/mitsuba.h:55,
                  from include/mitsuba/core/netobject.h:23,
                  from include/mitsuba/render/scene.h:23,
                  from src/integrators/quad/quadrature.cpp:5:
-include/mitsuba/core/point.h: In member function ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 5; bool ISVIDEO = true; STEPPER = viltrum::StepperBinsPerBin<viltrum::StepperMonteCarloUniform<std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> > >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<(! mitsuba::is_integrator<STEPPER>::value)>::type* <anonymous> = 0]’:
-include/mitsuba/core/point.h:489:46: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                              ^
-include/mitsuba/core/point.h:489:52: warning: ‘eyeRay.mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                                  ~~^
-include/mitsuba/core/point.h:489:37: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                     ^
-include/mitsuba/core/point.h:489:43: warning: ‘eyeRay.mitsuba::TPoint3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                         ~~^
-include/mitsuba/core/point.h:489:28: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                            ^
-include/mitsuba/core/point.h:489:34: warning: ‘eyeRay.mitsuba::TPoint3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                ~~^
-include/mitsuba/core/point.h:489:46: warning: ‘*((void*)(& eyeRay)+120).mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                              ^
-include/mitsuba/core/point.h:489:37: warning: ‘*((void*)(& eyeRay)+120).mitsuba::TPoint3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                     ^
-include/mitsuba/core/point.h:489:28: warning: ‘*((void*)(& eyeRay)+120).mitsuba::TPoint3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                            ^
-In file included from include/mitsuba/mitsuba.h:54,
-                 from include/mitsuba/core/cobject.h:23,
-                 from include/mitsuba/core/netobject.h:23,
-                 from include/mitsuba/render/scene.h:23,
-                 from src/integrators/quad/quadrature.cpp:5:
-include/mitsuba/core/vector.h:503:43: warning: ‘*((void*)(& eyeRay)+144).mitsuba::TVector3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                           ^
-include/mitsuba/core/vector.h:503:49: warning: ‘*((void*)(& eyeRay)+32).mitsuba::TVector3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                               ~~^
-include/mitsuba/core/vector.h:503:34: warning: ‘*((void*)(& eyeRay)+144).mitsuba::TVector3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                  ^
-include/mitsuba/core/vector.h:503:40: warning: ‘*((void*)(& eyeRay)+32).mitsuba::TVector3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                      ~~^
-include/mitsuba/core/vector.h:503:25: warning: ‘*((void*)(& eyeRay)+144).mitsuba::TVector3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                         ^
-include/mitsuba/core/vector.h:503:31: warning: ‘*((void*)(& eyeRay)+32).mitsuba::TVector3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                             ~~^
-include/mitsuba/core/vector.h:503:43: warning: ‘*((void*)(& eyeRay)+168).mitsuba::TVector3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                           ^
-include/mitsuba/core/vector.h:503:34: warning: ‘*((void*)(& eyeRay)+168).mitsuba::TVector3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                  ^
-include/mitsuba/core/vector.h:503:25: warning: ‘*((void*)(& eyeRay)+168).mitsuba::TVector3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                         ^
-In file included from include/mitsuba/mitsuba.h:55,
-                 from include/mitsuba/core/cobject.h:23,
-                 from include/mitsuba/core/netobject.h:23,
-                 from include/mitsuba/render/scene.h:23,
-                 from src/integrators/quad/quadrature.cpp:5:
 include/mitsuba/core/point.h: In member function ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 5; bool ISVIDEO = false; STEPPER = viltrum::StepperBinsPerBin<viltrum::StepperMonteCarloUniform<std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> > >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<(! mitsuba::is_integrator<STEPPER>::value)>::type* <anonymous> = 0]’:
 include/mitsuba/core/point.h:489:46: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
   489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
@@ -2546,7 +2613,7 @@ In file included from include/mitsuba/mitsuba.h:55,
                  from include/mitsuba/core/netobject.h:23,
                  from include/mitsuba/render/scene.h:23,
                  from src/integrators/quad/quadrature.cpp:5:
-include/mitsuba/core/point.h: In member function ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 4; bool ISVIDEO = true; STEPPER = viltrum::StepperBinsPerBin<viltrum::StepperMonteCarloUniform<std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> > >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<(! mitsuba::is_integrator<STEPPER>::value)>::type* <anonymous> = 0]’:
+include/mitsuba/core/point.h: In member function ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 5; bool ISVIDEO = true; STEPPER = viltrum::StepperBinsPerBin<viltrum::StepperMonteCarloUniform<std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> > >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<(! mitsuba::is_integrator<STEPPER>::value)>::type* <anonymous> = 0]’:
 include/mitsuba/core/point.h:489:46: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
   489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
       |                                              ^
@@ -2612,6 +2679,71 @@ In file included from include/mitsuba/mitsuba.h:55,
                  from include/mitsuba/render/scene.h:23,
                  from src/integrators/quad/quadrature.cpp:5:
 include/mitsuba/core/point.h: In member function ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 4; bool ISVIDEO = false; STEPPER = viltrum::StepperBinsPerBin<viltrum::StepperMonteCarloUniform<std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> > >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<(! mitsuba::is_integrator<STEPPER>::value)>::type* <anonymous> = 0]’:
+include/mitsuba/core/point.h:489:46: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
+      |                                              ^
+include/mitsuba/core/point.h:489:52: warning: ‘eyeRay.mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
+      |                                                  ~~^
+include/mitsuba/core/point.h:489:37: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
+      |                                     ^
+include/mitsuba/core/point.h:489:43: warning: ‘eyeRay.mitsuba::TPoint3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
+      |                                         ~~^
+include/mitsuba/core/point.h:489:28: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
+      |                            ^
+include/mitsuba/core/point.h:489:34: warning: ‘eyeRay.mitsuba::TPoint3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
+      |                                ~~^
+include/mitsuba/core/point.h:489:46: warning: ‘*((void*)(& eyeRay)+120).mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
+      |                                              ^
+include/mitsuba/core/point.h:489:37: warning: ‘*((void*)(& eyeRay)+120).mitsuba::TPoint3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
+      |                                     ^
+include/mitsuba/core/point.h:489:28: warning: ‘*((void*)(& eyeRay)+120).mitsuba::TPoint3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
+      |                            ^
+In file included from include/mitsuba/mitsuba.h:54,
+                 from include/mitsuba/core/cobject.h:23,
+                 from include/mitsuba/core/netobject.h:23,
+                 from include/mitsuba/render/scene.h:23,
+                 from src/integrators/quad/quadrature.cpp:5:
+include/mitsuba/core/vector.h:503:43: warning: ‘*((void*)(& eyeRay)+144).mitsuba::TVector3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
+      |                                           ^
+include/mitsuba/core/vector.h:503:49: warning: ‘*((void*)(& eyeRay)+32).mitsuba::TVector3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
+      |                                               ~~^
+include/mitsuba/core/vector.h:503:34: warning: ‘*((void*)(& eyeRay)+144).mitsuba::TVector3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
+      |                                  ^
+include/mitsuba/core/vector.h:503:40: warning: ‘*((void*)(& eyeRay)+32).mitsuba::TVector3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
+      |                                      ~~^
+include/mitsuba/core/vector.h:503:25: warning: ‘*((void*)(& eyeRay)+144).mitsuba::TVector3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
+      |                         ^
+include/mitsuba/core/vector.h:503:31: warning: ‘*((void*)(& eyeRay)+32).mitsuba::TVector3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
+      |                             ~~^
+include/mitsuba/core/vector.h:503:43: warning: ‘*((void*)(& eyeRay)+168).mitsuba::TVector3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
+      |                                           ^
+include/mitsuba/core/vector.h:503:34: warning: ‘*((void*)(& eyeRay)+168).mitsuba::TVector3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
+      |                                  ^
+include/mitsuba/core/vector.h:503:25: warning: ‘*((void*)(& eyeRay)+168).mitsuba::TVector3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
+      |                         ^
+In file included from include/mitsuba/mitsuba.h:55,
+                 from include/mitsuba/core/cobject.h:23,
+                 from include/mitsuba/core/netobject.h:23,
+                 from include/mitsuba/render/scene.h:23,
+                 from src/integrators/quad/quadrature.cpp:5:
+include/mitsuba/core/point.h: In member function ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 4; bool ISVIDEO = true; STEPPER = viltrum::StepperBinsPerBin<viltrum::StepperMonteCarloUniform<std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> > >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<(! mitsuba::is_integrator<STEPPER>::value)>::type* <anonymous> = 0]’:
 include/mitsuba/core/point.h:489:46: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
   489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
       |                                              ^
@@ -2806,7 +2938,7 @@ In file included from include/mitsuba/mitsuba.h:55,
                  from include/mitsuba/core/netobject.h:23,
                  from include/mitsuba/render/scene.h:23,
                  from src/integrators/quad/quadrature.cpp:5:
-include/mitsuba/core/point.h: In member function ‘void viltrum::StepperAdaptive<N, Error>::step(const F&, const viltrum::Range<Float, DIM>&, std::vector<R>&) const [with F = mitsuba::FunctionWrapper<2, mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 2; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0]::<lambda(const std::array<double, 2>&, auto:13, bool)> >; Float = double; long unsigned int DIM = 2; R = viltrum::ExtendedRegion<viltrum::Region<double, viltrum::Nested<viltrum::Boole, viltrum::Simpson>, 2, TupleMath>, std::tuple<double, long unsigned int> >; N = viltrum::Nested<viltrum::Boole, viltrum::Simpson>; Error = viltrum::ErrorSingleDimensionSize]’:
+include/mitsuba/core/point.h: In member function ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 2; bool ISVIDEO = false; STEPPER = viltrum::StepperBinsPerBin<viltrum::StepperMonteCarloUniform<std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> > >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<(! mitsuba::is_integrator<STEPPER>::value)>::type* <anonymous> = 0]’:
 include/mitsuba/core/point.h:489:46: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
   489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
       |                                              ^
@@ -2871,7 +3003,7 @@ In file included from include/mitsuba/mitsuba.h:55,
                  from include/mitsuba/core/netobject.h:23,
                  from include/mitsuba/render/scene.h:23,
                  from src/integrators/quad/quadrature.cpp:5:
-include/mitsuba/core/point.h: In member function ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 2; bool ISVIDEO = false; STEPPER = viltrum::StepperBinsPerBin<viltrum::StepperMonteCarloUniform<std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> > >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<(! mitsuba::is_integrator<STEPPER>::value)>::type* <anonymous> = 0]’:
+include/mitsuba/core/point.h: In member function ‘void viltrum::StepperAdaptive<N, Error>::step(const F&, const viltrum::Range<Float, DIM>&, std::vector<R>&) const [with F = mitsuba::FunctionWrapper<2, mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 2; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0]::<lambda(const std::array<double, 2>&, auto:13, bool)> >; Float = double; long unsigned int DIM = 2; R = viltrum::ExtendedRegion<viltrum::Region<double, viltrum::Nested<viltrum::Boole, viltrum::Simpson>, 2, TupleMath>, std::tuple<double, long unsigned int> >; N = viltrum::Nested<viltrum::Boole, viltrum::Simpson>; Error = viltrum::ErrorSingleDimensionSize]’:
 include/mitsuba/core/point.h:489:46: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
   489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
       |                                              ^
@@ -3001,71 +3133,6 @@ In file included from include/mitsuba/mitsuba.h:55,
                  from include/mitsuba/core/netobject.h:23,
                  from include/mitsuba/render/scene.h:23,
                  from src/integrators/quad/quadrature.cpp:5:
-include/mitsuba/core/point.h: In member function ‘void viltrum::IntegratorStratifiedPixelControlVariates<RegionGenerator, AlphaCalculator, Sampler, RNG>::integrate(Bins&, const std::array<long unsigned int, DIMBINS>&, const F&, const viltrum::Range<Float, DIM>&) const [with Bins = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 2; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0]::<lambda(const std::array<long unsigned int, 2>&)>; long unsigned int DIMBINS = 2; F = mitsuba::FunctionWrapper<2, mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 2; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0]::<lambda(const std::array<double, 2>&, auto:13, bool)> >; Float = double; long unsigned int DIM = 2; RegionGenerator = viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>; AlphaCalculator = viltrum::AlphaOptimized; Sampler = mitsuba::FunctionResidual; RNG = std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005>]’:
-include/mitsuba/core/point.h:489:46: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                              ^
-include/mitsuba/core/point.h:489:52: warning: ‘eyeRay.mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                                  ~~^
-include/mitsuba/core/point.h:489:37: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                     ^
-include/mitsuba/core/point.h:489:43: warning: ‘eyeRay.mitsuba::TPoint3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                         ~~^
-include/mitsuba/core/point.h:489:28: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                            ^
-include/mitsuba/core/point.h:489:34: warning: ‘eyeRay.mitsuba::TPoint3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                ~~^
-include/mitsuba/core/point.h:489:46: warning: ‘*((void*)(& eyeRay)+120).mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                              ^
-include/mitsuba/core/point.h:489:37: warning: ‘*((void*)(& eyeRay)+120).mitsuba::TPoint3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                     ^
-include/mitsuba/core/point.h:489:28: warning: ‘*((void*)(& eyeRay)+120).mitsuba::TPoint3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                            ^
-In file included from include/mitsuba/mitsuba.h:54,
-                 from include/mitsuba/core/cobject.h:23,
-                 from include/mitsuba/core/netobject.h:23,
-                 from include/mitsuba/render/scene.h:23,
-                 from src/integrators/quad/quadrature.cpp:5:
-include/mitsuba/core/vector.h:503:43: warning: ‘*((void*)(& eyeRay)+144).mitsuba::TVector3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                           ^
-include/mitsuba/core/vector.h:503:49: warning: ‘*((void*)(& eyeRay)+32).mitsuba::TVector3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                               ~~^
-include/mitsuba/core/vector.h:503:34: warning: ‘*((void*)(& eyeRay)+144).mitsuba::TVector3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                  ^
-include/mitsuba/core/vector.h:503:40: warning: ‘*((void*)(& eyeRay)+32).mitsuba::TVector3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                      ~~^
-include/mitsuba/core/vector.h:503:25: warning: ‘*((void*)(& eyeRay)+144).mitsuba::TVector3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                         ^
-include/mitsuba/core/vector.h:503:31: warning: ‘*((void*)(& eyeRay)+32).mitsuba::TVector3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                             ~~^
-include/mitsuba/core/vector.h:503:43: warning: ‘*((void*)(& eyeRay)+168).mitsuba::TVector3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                           ^
-include/mitsuba/core/vector.h:503:34: warning: ‘*((void*)(& eyeRay)+168).mitsuba::TVector3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                  ^
-include/mitsuba/core/vector.h:503:25: warning: ‘*((void*)(& eyeRay)+168).mitsuba::TVector3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                         ^
-In file included from include/mitsuba/mitsuba.h:55,
-                 from include/mitsuba/core/cobject.h:23,
-                 from include/mitsuba/core/netobject.h:23,
-                 from include/mitsuba/render/scene.h:23,
-                 from src/integrators/quad/quadrature.cpp:5:
 include/mitsuba/core/point.h: In member function ‘void viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<RegionGenerator, AlphaCalculator, Sampler, RNG>::integrate(Bins&, const std::array<long unsigned int, DIMBINS>&, const F&, const viltrum::Range<Float, DIM>&) const [with Bins = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 2; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0]::<lambda(const std::array<long unsigned int, 2>&)>; long unsigned int DIMBINS = 2; F = mitsuba::FunctionWrapper<2, mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 2; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0]::<lambda(const std::array<double, 2>&, auto:13, bool)> >; Float = double; long unsigned int DIM = 2; RegionGenerator = viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>; AlphaCalculator = viltrum::AlphaOptimized; Sampler = mitsuba::FunctionResidual; RNG = std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005>]’:
 include/mitsuba/core/point.h:489:46: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
   489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
@@ -3131,71 +3198,6 @@ In file included from include/mitsuba/mitsuba.h:55,
                  from include/mitsuba/core/netobject.h:23,
                  from include/mitsuba/render/scene.h:23,
                  from src/integrators/quad/quadrature.cpp:5:
-include/mitsuba/core/point.h:489:46: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                              ^
-include/mitsuba/core/point.h:489:52: warning: ‘eyeRay.mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                                  ~~^
-include/mitsuba/core/point.h:489:37: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                     ^
-include/mitsuba/core/point.h:489:43: warning: ‘eyeRay.mitsuba::TPoint3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                         ~~^
-include/mitsuba/core/point.h:489:28: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                            ^
-include/mitsuba/core/point.h:489:34: warning: ‘eyeRay.mitsuba::TPoint3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                ~~^
-include/mitsuba/core/point.h:489:46: warning: ‘*((void*)(& eyeRay)+120).mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                              ^
-include/mitsuba/core/point.h:489:37: warning: ‘*((void*)(& eyeRay)+120).mitsuba::TPoint3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                     ^
-include/mitsuba/core/point.h:489:28: warning: ‘*((void*)(& eyeRay)+120).mitsuba::TPoint3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                            ^
-In file included from include/mitsuba/mitsuba.h:54,
-                 from include/mitsuba/core/cobject.h:23,
-                 from include/mitsuba/core/netobject.h:23,
-                 from include/mitsuba/render/scene.h:23,
-                 from src/integrators/quad/quadrature.cpp:5:
-include/mitsuba/core/vector.h:503:43: warning: ‘*((void*)(& eyeRay)+144).mitsuba::TVector3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                           ^
-include/mitsuba/core/vector.h:503:49: warning: ‘*((void*)(& eyeRay)+32).mitsuba::TVector3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                               ~~^
-include/mitsuba/core/vector.h:503:34: warning: ‘*((void*)(& eyeRay)+144).mitsuba::TVector3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                  ^
-include/mitsuba/core/vector.h:503:40: warning: ‘*((void*)(& eyeRay)+32).mitsuba::TVector3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                      ~~^
-include/mitsuba/core/vector.h:503:25: warning: ‘*((void*)(& eyeRay)+144).mitsuba::TVector3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                         ^
-include/mitsuba/core/vector.h:503:31: warning: ‘*((void*)(& eyeRay)+32).mitsuba::TVector3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                             ~~^
-include/mitsuba/core/vector.h:503:43: warning: ‘*((void*)(& eyeRay)+168).mitsuba::TVector3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                           ^
-include/mitsuba/core/vector.h:503:34: warning: ‘*((void*)(& eyeRay)+168).mitsuba::TVector3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                  ^
-include/mitsuba/core/vector.h:503:25: warning: ‘*((void*)(& eyeRay)+168).mitsuba::TVector3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                         ^
-In file included from include/mitsuba/mitsuba.h:55,
-                 from include/mitsuba/core/cobject.h:23,
-                 from include/mitsuba/core/netobject.h:23,
-                 from include/mitsuba/render/scene.h:23,
-                 from src/integrators/quad/quadrature.cpp:5:
-include/mitsuba/core/point.h: In member function ‘void viltrum::IntegratorStratifiedPixelControlVariates<RegionGenerator, AlphaCalculator, Sampler, RNG>::integrate(Bins&, const std::array<long unsigned int, DIMBINS>&, const F&, const viltrum::Range<Float, DIM>&) const [with Bins = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 3; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0]::<lambda(const std::array<long unsigned int, 2>&)>; long unsigned int DIMBINS = 2; F = mitsuba::FunctionWrapper<3, mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 3; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0]::<lambda(const std::array<double, 3>&, auto:13, bool)> >; Float = double; long unsigned int DIM = 3; RegionGenerator = viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>; AlphaCalculator = viltrum::AlphaOptimized; Sampler = mitsuba::FunctionResidual; RNG = std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005>]’:
 include/mitsuba/core/point.h:489:46: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
   489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
       |                                              ^
@@ -3518,71 +3520,6 @@ In file included from include/mitsuba/mitsuba.h:55,
                  from include/mitsuba/core/netobject.h:23,
                  from include/mitsuba/render/scene.h:23,
                  from src/integrators/quad/quadrature.cpp:5:
-include/mitsuba/core/point.h: In member function ‘void viltrum::IntegratorStratifiedPixelControlVariates<RegionGenerator, AlphaCalculator, Sampler, RNG>::integrate(Bins&, const std::array<long unsigned int, DIMBINS>&, const F&, const viltrum::Range<Float, DIM>&) const [with Bins = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 2; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0]::<lambda(const std::array<long unsigned int, 2>&)>; long unsigned int DIMBINS = 2; F = mitsuba::FunctionWrapper<2, mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 2; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0]::<lambda(const std::array<double, 2>&, auto:13, bool)> >; Float = double; long unsigned int DIM = 2; RegionGenerator = viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>; AlphaCalculator = viltrum::AlphaOptimized; Sampler = mitsuba::FunctionResidual; RNG = std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005>]’:
-include/mitsuba/core/point.h:489:46: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                              ^
-include/mitsuba/core/point.h:489:52: warning: ‘eyeRay.mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                                  ~~^
-include/mitsuba/core/point.h:489:37: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                     ^
-include/mitsuba/core/point.h:489:43: warning: ‘eyeRay.mitsuba::TPoint3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                         ~~^
-include/mitsuba/core/point.h:489:28: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                            ^
-include/mitsuba/core/point.h:489:34: warning: ‘eyeRay.mitsuba::TPoint3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                ~~^
-include/mitsuba/core/point.h:489:46: warning: ‘*((void*)(& eyeRay)+120).mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                              ^
-include/mitsuba/core/point.h:489:37: warning: ‘*((void*)(& eyeRay)+120).mitsuba::TPoint3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                     ^
-include/mitsuba/core/point.h:489:28: warning: ‘*((void*)(& eyeRay)+120).mitsuba::TPoint3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                            ^
-In file included from include/mitsuba/mitsuba.h:54,
-                 from include/mitsuba/core/cobject.h:23,
-                 from include/mitsuba/core/netobject.h:23,
-                 from include/mitsuba/render/scene.h:23,
-                 from src/integrators/quad/quadrature.cpp:5:
-include/mitsuba/core/vector.h:503:43: warning: ‘*((void*)(& eyeRay)+144).mitsuba::TVector3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                           ^
-include/mitsuba/core/vector.h:503:49: warning: ‘*((void*)(& eyeRay)+32).mitsuba::TVector3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                               ~~^
-include/mitsuba/core/vector.h:503:34: warning: ‘*((void*)(& eyeRay)+144).mitsuba::TVector3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                  ^
-include/mitsuba/core/vector.h:503:40: warning: ‘*((void*)(& eyeRay)+32).mitsuba::TVector3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                      ~~^
-include/mitsuba/core/vector.h:503:25: warning: ‘*((void*)(& eyeRay)+144).mitsuba::TVector3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                         ^
-include/mitsuba/core/vector.h:503:31: warning: ‘*((void*)(& eyeRay)+32).mitsuba::TVector3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                             ~~^
-include/mitsuba/core/vector.h:503:43: warning: ‘*((void*)(& eyeRay)+168).mitsuba::TVector3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                           ^
-include/mitsuba/core/vector.h:503:34: warning: ‘*((void*)(& eyeRay)+168).mitsuba::TVector3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                  ^
-include/mitsuba/core/vector.h:503:25: warning: ‘*((void*)(& eyeRay)+168).mitsuba::TVector3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                         ^
-In file included from include/mitsuba/mitsuba.h:55,
-                 from include/mitsuba/core/cobject.h:23,
-                 from include/mitsuba/core/netobject.h:23,
-                 from include/mitsuba/render/scene.h:23,
-                 from src/integrators/quad/quadrature.cpp:5:
 include/mitsuba/core/point.h: In member function ‘void viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<RegionGenerator, AlphaCalculator, Sampler, RNG>::integrate(Bins&, const std::array<long unsigned int, DIMBINS>&, const F&, const viltrum::Range<Float, DIM>&) const [with Bins = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 2; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0]::<lambda(const std::array<long unsigned int, 2>&)>; long unsigned int DIMBINS = 2; F = mitsuba::FunctionWrapper<2, mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 2; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0]::<lambda(const std::array<double, 2>&, auto:13, bool)> >; Float = double; long unsigned int DIM = 2; RegionGenerator = viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>; AlphaCalculator = viltrum::AlphaOptimized; Sampler = mitsuba::FunctionResidual; RNG = std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005>]’:
 include/mitsuba/core/point.h:489:46: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
   489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
@@ -3648,71 +3585,6 @@ In file included from include/mitsuba/mitsuba.h:55,
                  from include/mitsuba/core/netobject.h:23,
                  from include/mitsuba/render/scene.h:23,
                  from src/integrators/quad/quadrature.cpp:5:
-include/mitsuba/core/point.h:489:46: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                              ^
-include/mitsuba/core/point.h:489:52: warning: ‘eyeRay.mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                                  ~~^
-include/mitsuba/core/point.h:489:37: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                     ^
-include/mitsuba/core/point.h:489:43: warning: ‘eyeRay.mitsuba::TPoint3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                         ~~^
-include/mitsuba/core/point.h:489:28: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                            ^
-include/mitsuba/core/point.h:489:34: warning: ‘eyeRay.mitsuba::TPoint3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                ~~^
-include/mitsuba/core/point.h:489:46: warning: ‘*((void*)(& eyeRay)+120).mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                              ^
-include/mitsuba/core/point.h:489:37: warning: ‘*((void*)(& eyeRay)+120).mitsuba::TPoint3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                     ^
-include/mitsuba/core/point.h:489:28: warning: ‘*((void*)(& eyeRay)+120).mitsuba::TPoint3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                            ^
-In file included from include/mitsuba/mitsuba.h:54,
-                 from include/mitsuba/core/cobject.h:23,
-                 from include/mitsuba/core/netobject.h:23,
-                 from include/mitsuba/render/scene.h:23,
-                 from src/integrators/quad/quadrature.cpp:5:
-include/mitsuba/core/vector.h:503:43: warning: ‘*((void*)(& eyeRay)+144).mitsuba::TVector3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                           ^
-include/mitsuba/core/vector.h:503:49: warning: ‘*((void*)(& eyeRay)+32).mitsuba::TVector3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                               ~~^
-include/mitsuba/core/vector.h:503:34: warning: ‘*((void*)(& eyeRay)+144).mitsuba::TVector3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                  ^
-include/mitsuba/core/vector.h:503:40: warning: ‘*((void*)(& eyeRay)+32).mitsuba::TVector3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                      ~~^
-include/mitsuba/core/vector.h:503:25: warning: ‘*((void*)(& eyeRay)+144).mitsuba::TVector3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                         ^
-include/mitsuba/core/vector.h:503:31: warning: ‘*((void*)(& eyeRay)+32).mitsuba::TVector3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                             ~~^
-include/mitsuba/core/vector.h:503:43: warning: ‘*((void*)(& eyeRay)+168).mitsuba::TVector3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                           ^
-include/mitsuba/core/vector.h:503:34: warning: ‘*((void*)(& eyeRay)+168).mitsuba::TVector3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                  ^
-include/mitsuba/core/vector.h:503:25: warning: ‘*((void*)(& eyeRay)+168).mitsuba::TVector3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                         ^
-In file included from include/mitsuba/mitsuba.h:55,
-                 from include/mitsuba/core/cobject.h:23,
-                 from include/mitsuba/core/netobject.h:23,
-                 from include/mitsuba/render/scene.h:23,
-                 from src/integrators/quad/quadrature.cpp:5:
-include/mitsuba/core/point.h: In member function ‘void viltrum::IntegratorStratifiedPixelControlVariates<RegionGenerator, AlphaCalculator, Sampler, RNG>::integrate(Bins&, const std::array<long unsigned int, DIMBINS>&, const F&, const viltrum::Range<Float, DIM>&) const [with Bins = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 3; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0]::<lambda(const std::array<long unsigned int, 2>&)>; long unsigned int DIMBINS = 2; F = mitsuba::FunctionWrapper<3, mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 3; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0]::<lambda(const std::array<double, 3>&, auto:13, bool)> >; Float = double; long unsigned int DIM = 3; RegionGenerator = viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>; AlphaCalculator = viltrum::AlphaOptimized; Sampler = mitsuba::FunctionResidual; RNG = std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005>]’:
 include/mitsuba/core/point.h:489:46: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
   489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
       |                                              ^
@@ -4035,71 +3907,6 @@ In file included from include/mitsuba/mitsuba.h:55,
                  from include/mitsuba/core/netobject.h:23,
                  from include/mitsuba/render/scene.h:23,
                  from src/integrators/quad/quadrature.cpp:5:
-include/mitsuba/core/point.h: In member function ‘void viltrum::IntegratorStratifiedPixelControlVariates<RegionGenerator, AlphaCalculator, Sampler, RNG>::integrate(Bins&, const std::array<long unsigned int, DIMBINS>&, const F&, const viltrum::Range<Float, DIM>&) const [with Bins = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 4; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0]::<lambda(const std::array<long unsigned int, 2>&)>; long unsigned int DIMBINS = 2; F = mitsuba::FunctionWrapper<4, mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 4; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0]::<lambda(const std::array<double, 4>&, auto:13, bool)> >; Float = double; long unsigned int DIM = 4; RegionGenerator = viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>; AlphaCalculator = viltrum::AlphaOptimized; Sampler = mitsuba::FunctionResidual; RNG = std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005>]’:
-include/mitsuba/core/point.h:489:46: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                              ^
-include/mitsuba/core/point.h:489:52: warning: ‘eyeRay.mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                                  ~~^
-include/mitsuba/core/point.h:489:37: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                     ^
-include/mitsuba/core/point.h:489:43: warning: ‘eyeRay.mitsuba::TPoint3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                         ~~^
-include/mitsuba/core/point.h:489:28: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                            ^
-include/mitsuba/core/point.h:489:34: warning: ‘eyeRay.mitsuba::TPoint3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                ~~^
-include/mitsuba/core/point.h:489:46: warning: ‘*((void*)(& eyeRay)+120).mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                              ^
-include/mitsuba/core/point.h:489:37: warning: ‘*((void*)(& eyeRay)+120).mitsuba::TPoint3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                     ^
-include/mitsuba/core/point.h:489:28: warning: ‘*((void*)(& eyeRay)+120).mitsuba::TPoint3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                            ^
-In file included from include/mitsuba/mitsuba.h:54,
-                 from include/mitsuba/core/cobject.h:23,
-                 from include/mitsuba/core/netobject.h:23,
-                 from include/mitsuba/render/scene.h:23,
-                 from src/integrators/quad/quadrature.cpp:5:
-include/mitsuba/core/vector.h:503:43: warning: ‘*((void*)(& eyeRay)+144).mitsuba::TVector3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                           ^
-include/mitsuba/core/vector.h:503:49: warning: ‘*((void*)(& eyeRay)+32).mitsuba::TVector3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                               ~~^
-include/mitsuba/core/vector.h:503:34: warning: ‘*((void*)(& eyeRay)+144).mitsuba::TVector3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                  ^
-include/mitsuba/core/vector.h:503:40: warning: ‘*((void*)(& eyeRay)+32).mitsuba::TVector3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                      ~~^
-include/mitsuba/core/vector.h:503:25: warning: ‘*((void*)(& eyeRay)+144).mitsuba::TVector3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                         ^
-include/mitsuba/core/vector.h:503:31: warning: ‘*((void*)(& eyeRay)+32).mitsuba::TVector3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                             ~~^
-include/mitsuba/core/vector.h:503:43: warning: ‘*((void*)(& eyeRay)+168).mitsuba::TVector3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                           ^
-include/mitsuba/core/vector.h:503:34: warning: ‘*((void*)(& eyeRay)+168).mitsuba::TVector3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                  ^
-include/mitsuba/core/vector.h:503:25: warning: ‘*((void*)(& eyeRay)+168).mitsuba::TVector3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                         ^
-In file included from include/mitsuba/mitsuba.h:55,
-                 from include/mitsuba/core/cobject.h:23,
-                 from include/mitsuba/core/netobject.h:23,
-                 from include/mitsuba/render/scene.h:23,
-                 from src/integrators/quad/quadrature.cpp:5:
 include/mitsuba/core/point.h: In member function ‘void viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<RegionGenerator, AlphaCalculator, Sampler, RNG>::integrate(Bins&, const std::array<long unsigned int, DIMBINS>&, const F&, const viltrum::Range<Float, DIM>&) const [with Bins = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 4; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0]::<lambda(const std::array<long unsigned int, 3>&)>; long unsigned int DIMBINS = 3; F = mitsuba::FunctionWrapper<4, mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 4; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0]::<lambda(const std::array<double, 4>&, auto:13, bool)> >; Float = double; long unsigned int DIM = 4; RegionGenerator = viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>; AlphaCalculator = viltrum::AlphaOptimized; Sampler = mitsuba::FunctionResidual; RNG = std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005>]’:
 include/mitsuba/core/point.h:489:46: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
   489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
@@ -4294,71 +4101,6 @@ In file included from include/mitsuba/mitsuba.h:55,
                  from include/mitsuba/core/netobject.h:23,
                  from include/mitsuba/render/scene.h:23,
                  from src/integrators/quad/quadrature.cpp:5:
-include/mitsuba/core/point.h:489:46: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                              ^
-include/mitsuba/core/point.h:489:52: warning: ‘eyeRay.mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                                  ~~^
-include/mitsuba/core/point.h:489:37: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                     ^
-include/mitsuba/core/point.h:489:43: warning: ‘eyeRay.mitsuba::TPoint3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                         ~~^
-include/mitsuba/core/point.h:489:28: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                            ^
-include/mitsuba/core/point.h:489:34: warning: ‘eyeRay.mitsuba::TPoint3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                ~~^
-include/mitsuba/core/point.h:489:46: warning: ‘*((void*)(& eyeRay)+120).mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                              ^
-include/mitsuba/core/point.h:489:37: warning: ‘*((void*)(& eyeRay)+120).mitsuba::TPoint3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                     ^
-include/mitsuba/core/point.h:489:28: warning: ‘*((void*)(& eyeRay)+120).mitsuba::TPoint3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                            ^
-In file included from include/mitsuba/mitsuba.h:54,
-                 from include/mitsuba/core/cobject.h:23,
-                 from include/mitsuba/core/netobject.h:23,
-                 from include/mitsuba/render/scene.h:23,
-                 from src/integrators/quad/quadrature.cpp:5:
-include/mitsuba/core/vector.h:503:43: warning: ‘*((void*)(& eyeRay)+144).mitsuba::TVector3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                           ^
-include/mitsuba/core/vector.h:503:49: warning: ‘*((void*)(& eyeRay)+32).mitsuba::TVector3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                               ~~^
-include/mitsuba/core/vector.h:503:34: warning: ‘*((void*)(& eyeRay)+144).mitsuba::TVector3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                  ^
-include/mitsuba/core/vector.h:503:40: warning: ‘*((void*)(& eyeRay)+32).mitsuba::TVector3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                      ~~^
-include/mitsuba/core/vector.h:503:25: warning: ‘*((void*)(& eyeRay)+144).mitsuba::TVector3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                         ^
-include/mitsuba/core/vector.h:503:31: warning: ‘*((void*)(& eyeRay)+32).mitsuba::TVector3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                             ~~^
-include/mitsuba/core/vector.h:503:43: warning: ‘*((void*)(& eyeRay)+168).mitsuba::TVector3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                           ^
-include/mitsuba/core/vector.h:503:34: warning: ‘*((void*)(& eyeRay)+168).mitsuba::TVector3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                  ^
-include/mitsuba/core/vector.h:503:25: warning: ‘*((void*)(& eyeRay)+168).mitsuba::TVector3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                         ^
-In file included from include/mitsuba/mitsuba.h:55,
-                 from include/mitsuba/core/cobject.h:23,
-                 from include/mitsuba/core/netobject.h:23,
-                 from include/mitsuba/render/scene.h:23,
-                 from src/integrators/quad/quadrature.cpp:5:
-include/mitsuba/core/point.h: In member function ‘void viltrum::IntegratorStratifiedPixelControlVariates<RegionGenerator, AlphaCalculator, Sampler, RNG>::integrate(Bins&, const std::array<long unsigned int, DIMBINS>&, const F&, const viltrum::Range<Float, DIM>&) const [with Bins = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 4; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0]::<lambda(const std::array<long unsigned int, 2>&)>; long unsigned int DIMBINS = 2; F = mitsuba::FunctionWrapper<4, mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 4; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0]::<lambda(const std::array<double, 4>&, auto:13, bool)> >; Float = double; long unsigned int DIM = 4; RegionGenerator = viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>; AlphaCalculator = viltrum::AlphaOptimized; Sampler = mitsuba::FunctionResidual; RNG = std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005>]’:
 include/mitsuba/core/point.h:489:46: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
   489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
       |                                              ^
@@ -5327,71 +5069,6 @@ In file included from include/mitsuba/mitsuba.h:55,
                  from include/mitsuba/core/netobject.h:23,
                  from include/mitsuba/render/scene.h:23,
                  from src/integrators/quad/quadrature.cpp:5:
-include/mitsuba/core/point.h: In member function ‘void viltrum::IntegratorStratifiedPixelControlVariates<RegionGenerator, AlphaCalculator, Sampler, RNG>::integrate(Bins&, const std::array<long unsigned int, DIMBINS>&, const F&, const viltrum::Range<Float, DIM>&) const [with Bins = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 6; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0]::<lambda(const std::array<long unsigned int, 2>&)>; long unsigned int DIMBINS = 2; F = mitsuba::FunctionWrapper<6, mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 6; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0]::<lambda(const std::array<double, 6>&, auto:13, bool)> >; Float = double; long unsigned int DIM = 6; RegionGenerator = viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>; AlphaCalculator = viltrum::AlphaOptimized; Sampler = mitsuba::FunctionResidual; RNG = std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005>]’:
-include/mitsuba/core/point.h:489:46: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                              ^
-include/mitsuba/core/point.h:489:52: warning: ‘eyeRay.mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                                  ~~^
-include/mitsuba/core/point.h:489:37: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                     ^
-include/mitsuba/core/point.h:489:43: warning: ‘eyeRay.mitsuba::TPoint3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                         ~~^
-include/mitsuba/core/point.h:489:28: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                            ^
-include/mitsuba/core/point.h:489:34: warning: ‘eyeRay.mitsuba::TPoint3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                ~~^
-include/mitsuba/core/point.h:489:46: warning: ‘*((void*)(& eyeRay)+120).mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                              ^
-include/mitsuba/core/point.h:489:37: warning: ‘*((void*)(& eyeRay)+120).mitsuba::TPoint3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                     ^
-include/mitsuba/core/point.h:489:28: warning: ‘*((void*)(& eyeRay)+120).mitsuba::TPoint3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                            ^
-In file included from include/mitsuba/mitsuba.h:54,
-                 from include/mitsuba/core/cobject.h:23,
-                 from include/mitsuba/core/netobject.h:23,
-                 from include/mitsuba/render/scene.h:23,
-                 from src/integrators/quad/quadrature.cpp:5:
-include/mitsuba/core/vector.h:503:43: warning: ‘*((void*)(& eyeRay)+144).mitsuba::TVector3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                           ^
-include/mitsuba/core/vector.h:503:49: warning: ‘*((void*)(& eyeRay)+32).mitsuba::TVector3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                               ~~^
-include/mitsuba/core/vector.h:503:34: warning: ‘*((void*)(& eyeRay)+144).mitsuba::TVector3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                  ^
-include/mitsuba/core/vector.h:503:40: warning: ‘*((void*)(& eyeRay)+32).mitsuba::TVector3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                      ~~^
-include/mitsuba/core/vector.h:503:25: warning: ‘*((void*)(& eyeRay)+144).mitsuba::TVector3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                         ^
-include/mitsuba/core/vector.h:503:31: warning: ‘*((void*)(& eyeRay)+32).mitsuba::TVector3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                             ~~^
-include/mitsuba/core/vector.h:503:43: warning: ‘*((void*)(& eyeRay)+168).mitsuba::TVector3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                           ^
-include/mitsuba/core/vector.h:503:34: warning: ‘*((void*)(& eyeRay)+168).mitsuba::TVector3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                  ^
-include/mitsuba/core/vector.h:503:25: warning: ‘*((void*)(& eyeRay)+168).mitsuba::TVector3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                         ^
-In file included from include/mitsuba/mitsuba.h:55,
-                 from include/mitsuba/core/cobject.h:23,
-                 from include/mitsuba/core/netobject.h:23,
-                 from include/mitsuba/render/scene.h:23,
-                 from src/integrators/quad/quadrature.cpp:5:
 include/mitsuba/core/point.h: In member function ‘void viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<RegionGenerator, AlphaCalculator, Sampler, RNG>::integrate(Bins&, const std::array<long unsigned int, DIMBINS>&, const F&, const viltrum::Range<Float, DIM>&) const [with Bins = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 6; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0]::<lambda(const std::array<long unsigned int, 2>&)>; long unsigned int DIMBINS = 2; F = mitsuba::FunctionWrapper<6, mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 6; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0]::<lambda(const std::array<double, 6>&, auto:13, bool)> >; Float = double; long unsigned int DIM = 6; RegionGenerator = viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>; AlphaCalculator = viltrum::AlphaOptimized; Sampler = mitsuba::FunctionResidual; RNG = std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005>]’:
 include/mitsuba/core/point.h:489:46: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
   489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
@@ -5586,71 +5263,6 @@ In file included from include/mitsuba/mitsuba.h:55,
                  from include/mitsuba/core/netobject.h:23,
                  from include/mitsuba/render/scene.h:23,
                  from src/integrators/quad/quadrature.cpp:5:
-include/mitsuba/core/point.h:489:46: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                              ^
-include/mitsuba/core/point.h:489:52: warning: ‘eyeRay.mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                                  ~~^
-include/mitsuba/core/point.h:489:37: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                     ^
-include/mitsuba/core/point.h:489:43: warning: ‘eyeRay.mitsuba::TPoint3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                         ~~^
-include/mitsuba/core/point.h:489:28: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                            ^
-include/mitsuba/core/point.h:489:34: warning: ‘eyeRay.mitsuba::TPoint3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                ~~^
-include/mitsuba/core/point.h:489:46: warning: ‘*((void*)(& eyeRay)+120).mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                              ^
-include/mitsuba/core/point.h:489:37: warning: ‘*((void*)(& eyeRay)+120).mitsuba::TPoint3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                                     ^
-include/mitsuba/core/point.h:489:28: warning: ‘*((void*)(& eyeRay)+120).mitsuba::TPoint3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
-      |                            ^
-In file included from include/mitsuba/mitsuba.h:54,
-                 from include/mitsuba/core/cobject.h:23,
-                 from include/mitsuba/core/netobject.h:23,
-                 from include/mitsuba/render/scene.h:23,
-                 from src/integrators/quad/quadrature.cpp:5:
-include/mitsuba/core/vector.h:503:43: warning: ‘*((void*)(& eyeRay)+144).mitsuba::TVector3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                           ^
-include/mitsuba/core/vector.h:503:49: warning: ‘*((void*)(& eyeRay)+32).mitsuba::TVector3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                               ~~^
-include/mitsuba/core/vector.h:503:34: warning: ‘*((void*)(& eyeRay)+144).mitsuba::TVector3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                  ^
-include/mitsuba/core/vector.h:503:40: warning: ‘*((void*)(& eyeRay)+32).mitsuba::TVector3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                      ~~^
-include/mitsuba/core/vector.h:503:25: warning: ‘*((void*)(& eyeRay)+144).mitsuba::TVector3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                         ^
-include/mitsuba/core/vector.h:503:31: warning: ‘*((void*)(& eyeRay)+32).mitsuba::TVector3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                             ~~^
-include/mitsuba/core/vector.h:503:43: warning: ‘*((void*)(& eyeRay)+168).mitsuba::TVector3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                           ^
-include/mitsuba/core/vector.h:503:34: warning: ‘*((void*)(& eyeRay)+168).mitsuba::TVector3<double>::y’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                                  ^
-include/mitsuba/core/vector.h:503:25: warning: ‘*((void*)(& eyeRay)+168).mitsuba::TVector3<double>::x’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  503 |         return TVector3(x - v.x, y - v.y, z - v.z);
-      |                         ^
-In file included from include/mitsuba/mitsuba.h:55,
-                 from include/mitsuba/core/cobject.h:23,
-                 from include/mitsuba/core/netobject.h:23,
-                 from include/mitsuba/render/scene.h:23,
-                 from src/integrators/quad/quadrature.cpp:5:
-include/mitsuba/core/point.h: In member function ‘void viltrum::IntegratorStratifiedPixelControlVariates<RegionGenerator, AlphaCalculator, Sampler, RNG>::integrate(Bins&, const std::array<long unsigned int, DIMBINS>&, const F&, const viltrum::Range<Float, DIM>&) const [with Bins = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 6; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0]::<lambda(const std::array<long unsigned int, 2>&)>; long unsigned int DIMBINS = 2; F = mitsuba::FunctionWrapper<6, mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 6; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariates<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0]::<lambda(const std::array<double, 6>&, auto:13, bool)> >; Float = double; long unsigned int DIM = 6; RegionGenerator = viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>; AlphaCalculator = viltrum::AlphaOptimized; Sampler = mitsuba::FunctionResidual; RNG = std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005>]’:
 include/mitsuba/core/point.h:489:46: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
   489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
       |                                              ^
