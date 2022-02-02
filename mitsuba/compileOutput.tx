@@ -1,0 +1,8 @@
+
+scons: warning: Calling missing SConscript without error is deprecated.
+Transition by adding must_exist=0 to SConscript calls.
+Missing SConscript 'build/release/SConscript'
+File "/home/melody/Documents/viltrum-mitsuba/mitsuba/SConstruct", line 28, in build
+scons: *** [build/release/integrators/quad/quadrature.os] Build interrupted.
+scons: *** [build/release/integrators/quad/heterogeneous.os] Build interrupted.
+scons: Build interrupted.

@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import math
 from mpl_toolkits import mplot3d
-x, y, z1, z2, z3 = np.loadtxt('no_dragon_near_light_green.txt', delimiter=',', unpack=True)
+x, y, z1, z2, z3 = np.loadtxt('graphing_plastic.txt', delimiter=',', unpack=True)
 #print(max(z))
 #z1 /= max(abs(z1))
 #z2 /= max(abs(z2))
