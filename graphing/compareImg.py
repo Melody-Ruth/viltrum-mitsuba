@@ -2,9 +2,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 import math
 from mpl_toolkits import mplot3d
-r1, g1, b1 = np.loadtxt('plastic_pixels3.txt', delimiter=',', unpack=True)
-r2, g2, b2 = np.loadtxt('plastic_pixels1.txt', delimiter=',', unpack=True)
-r3, g3, b3 = np.loadtxt('plastic_pixels2.txt', delimiter=',', unpack=True)
+r1, g1, b1 = np.loadtxt('default_pixels1.txt', delimiter=',', unpack=True)#Groundtruth
+r2, g2, b2 = np.loadtxt('default_pixels2.txt', delimiter=',', unpack=True)#non-antithetic
+r3, g3, b3 = np.loadtxt('default_pixels3.txt', delimiter=',', unpack=True)#antithetic
 
 rmseRedNon = 0
 for i in range(len(r1)):
