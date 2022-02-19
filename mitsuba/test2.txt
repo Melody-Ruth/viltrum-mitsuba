@@ -1,2 +1,2 @@
-2022-01-27 21:58:18 INFO  main [mitsuba.cpp:274] Mitsuba version 0.6.0 (Linux, 64 bit), Copyright (c) 2017 Wenzel Jakob
-2022-01-27 21:58:18 INFO  main [mitsuba.cpp:377] Parsing scene description from "scene_paper.xml" ..
+2022-02-11 17:55:05 INFO  main [mitsuba.cpp:274] Mitsuba version 0.6.0 (Linux, 64 bit), Copyright (c) 2017 Wenzel Jakob
+2022-02-11 17:55:05 INFO  main [mitsuba.cpp:377] Parsing scene description from "scene_paper.xml" ..
