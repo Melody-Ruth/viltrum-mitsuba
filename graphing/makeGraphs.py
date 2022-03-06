@@ -39,4 +39,3 @@ ax3.scatter3D(x, y, z3, label='Residual for region 28. Dimensions are i, j, k, a
 plt.legend()
 plt.show()
 
-
