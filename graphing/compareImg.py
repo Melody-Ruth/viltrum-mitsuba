@@ -13,28 +13,37 @@ def percentDiff(a, b):
         return (a-b) / ((a+b)/2)
 
 rmseRedNon = 0
+rmseRedNonAn = 0
 justGreen = 0
 justGreenAntithetic = 0
 for i in range(len(r1)):
     rmseRedNon += (r2[i]-r1[i])**2
+    rmseRedNonAn += (r3[i]-r1[i])**2
 
 for i in range(len(r1)):
-    rmseRedNon += (g2[i]-g1[i])**2
+    #rmseRedNon += (g2[i]-g1[i])**2
+    #rmseRedNonAn += (g2[i]-g1[i])**2
     justGreen += (g2[i]-g1[i])**2
     justGreenAntithetic += (g3[i]-g1[i])**2
     #if percentDiff((g2[i]-g1[i])**2, (g3[i]-g1[i])**2) > 1.95:
         #print(i, g1[i], g2[i], g3[i])
 
 for i in range(len(r1)):
-    rmseRedNon += (b2[i]-b1[i])**2
+    rmseRedNon = rmseRedNon
+    #rmseRedNon += (b2[i]-b1[i])**2
+    #rmseRedNonAn += (b2[i]-b1[i])**2
 
-rmseRedNon /= 3 * len(r1)
+rmseRedNon /= len(r1)
+rmseRedNon **= 0.5
+rmseRedNonAn /= len(r1)
+rmseRedNonAn **= 0.5
 justGreen /= len(g1)
 justGreen **= 0.5
 justGreenAntithetic /= len(g1)
 justGreenAntithetic **= 0.5
 
-#print(rmseRedNon)
+print(rmseRedNon)
+print(rmseRedNonAn)
 print(justGreen)
 print(justGreenAntithetic)
 

@@ -1,34 +1,55 @@
-2022-03-13 15:36:02 INFO  main [mitsuba.cpp:274] Mitsuba version 0.6.0 (Linux, 64 bit), Copyright (c) 2017 Wenzel Jakob
-2022-03-13 15:36:02 INFO  main [mitsuba.cpp:377] Parsing scene description from "scene_paper.xml" ..
-2022-03-13 15:36:02 INFO  main [PluginManager] Loading plugin "plugins/quad.so" ..
-2022-03-13 15:36:02 INFO  main [PluginManager] Loading plugin "plugins/independent.so" ..
-2022-03-13 15:36:02 INFO  main [PluginManager] Loading plugin "plugins/box.so" ..
-2022-03-13 15:36:02 INFO  main [PluginManager] Loading plugin "plugins/hdrfilm.so" ..
-2022-03-13 15:36:02 INFO  main [PluginManager] Loading plugin "plugins/perspective.so" ..
-2022-03-13 15:36:02 INFO  main [PluginManager] Loading plugin "plugins/diffuse.so" ..
-2022-03-13 15:36:02 INFO  main [PluginManager] Loading plugin "plugins/rectangle.so" ..
-2022-03-13 15:36:02 INFO  main [PluginManager] Loading plugin "plugins/bitmap.so" ..
-2022-03-13 15:36:02 INFO  main [BitmapTexture] Loading texture "gradient3.png"
-2022-03-13 15:36:02 INFO  main [PluginManager] Loading plugin "plugins/lanczos.so" ..
-2022-03-13 15:36:02 INFO  main [PluginManager] Loading plugin "plugins/scale.so" ..
-2022-03-13 15:36:02 INFO  main [PluginManager] Loading plugin "plugins/areacolor.so" ..
-2022-03-13 15:36:02 INFO  ren0 [KDTreeBase] Constructing a SAH kd-tree (2 primitives) ..
-2022-03-13 15:36:02 INFO  ren0 [KDTreeBase] Finished -- took 0 ms.
-2022-03-13 15:36:02 INFO  ren0 [PSACV] SPP 145.312500   SPP_CV 9.687500  SCALE 0.062500
-2022-03-13 15:36:02 INFO  ren0 [PluginManager] Loading plugin "plugins/pathQuadrature.so" ..
-2022-03-13 15:36:02 INFO  ren0 [PSACV] Samples per iteration 54
-2022-03-13 15:36:02 INFO  ren0 [PSACV] Using 34352 iterations from 9.687500 spp requested for CV init
-2022-03-13 15:36:02 INFO  ren0 [PSACV] Using simpsons-trapezoidal rules
-2022-03-13 15:36:02 INFO  ren0 [PSACV] Launching
+2022-03-15 12:26:15 INFO  main [mitsuba.cpp:274] Mitsuba version 0.6.0 (Linux, 64 bit), Copyright (c) 2017 Wenzel Jakob
+2022-03-15 12:26:15 INFO  main [mitsuba.cpp:377] Parsing scene description from "scene_paper.xml" ..
+2022-03-15 12:26:15 INFO  main [PluginManager] Loading plugin "plugins/quad.so" ..
+2022-03-15 12:26:15 INFO  main [PluginManager] Loading plugin "plugins/independent.so" ..
+2022-03-15 12:26:15 INFO  main [PluginManager] Loading plugin "plugins/box.so" ..
+2022-03-15 12:26:15 INFO  main [PluginManager] Loading plugin "plugins/hdrfilm.so" ..
+2022-03-15 12:26:15 INFO  main [PluginManager] Loading plugin "plugins/perspective.so" ..
+2022-03-15 12:26:15 INFO  main [PluginManager] Loading plugin "plugins/diffuse.so" ..
+2022-03-15 12:26:15 INFO  main [PluginManager] Loading plugin "plugins/rectangle.so" ..
+2022-03-15 12:26:15 INFO  main [PluginManager] Loading plugin "plugins/bitmap.so" ..
+2022-03-15 12:26:15 INFO  main [BitmapTexture] Loading texture "gradient3.png"
+2022-03-15 12:26:15 INFO  main [PluginManager] Loading plugin "plugins/lanczos.so" ..
+2022-03-15 12:26:15 INFO  main [PluginManager] Loading plugin "plugins/scale.so" ..
+2022-03-15 12:26:15 INFO  main [PluginManager] Loading plugin "plugins/areacolor.so" ..
+2022-03-15 12:26:15 INFO  ren0 [KDTreeBase] Constructing a SAH kd-tree (2 primitives) ..
+2022-03-15 12:26:15 INFO  ren0 [KDTreeBase] Finished -- took 0 ms.
+2022-03-15 12:26:15 INFO  ren0 [PSACV] SPP 145.312500   SPP_CV 9.687500  SCALE 0.062500
+2022-03-15 12:26:15 INFO  ren0 [PluginManager] Loading plugin "plugins/pathQuadrature.so" ..
+2022-03-15 12:26:15 INFO  ren0 [PSACV] Samples per iteration 54
+2022-03-15 12:26:15 INFO  ren0 [PSACV] Using 34352 iterations from 9.687500 spp requested for CV init
+2022-03-15 12:26:15 INFO  ren0 [PSACV] Using simpsons-trapezoidal rules
+2022-03-15 12:26:15 INFO  ren0 [PSACV] Launching
+Bin dimensions: 2
+0, 1
+0, 1
+0, 1
+0, 1
 Inside init
 0, 1 and 0, 1 and 0, 1 and 0, 1 and Region results: 
-2022-03-13 15:40:04 INFO  ren0 [PSACV] Done
-2022-03-13 15:40:04 INFO  ren0 [PSACV] Total samples used :  Init(0)  Iterations(198591763)  Total(29680640.000000)
-Average pixel: 0.115255
-2022-03-13 15:40:04 INFO  ren0 [PSACV] [TIME *] Sampling routine callback 9042 milliseconds
-2022-03-13 15:40:04 INFO  ren0 [RenderJob] Render time: 4.0436m
-2022-03-13 15:40:04 INFO  ren0 [HDRFilm] Writing image to "/media/melody/Extra Space/home/melody/Documents/viltrum-mitsuba/scenes/dragon/scene_paper.exr" ..
-2022-03-13 15:40:04 INFO  main [statistics.cpp:142] Statistics:
+Number of regions total: 34353
+0, 0, 0
+Number of pixels total: 191488
+Hello??? It's I
+i range: 0.441406 to 0.443359
+j range: 0.0454545 to 0.0481283
+k range: 0.443359 to 5.22226e-06
+l range: 0.0481283 to 0
+Estimate: 0 (no adjustment for size) 
+Actually, probably 0
+Samples per region: 0
+Samples per region: 0
+, 45557, 133183, 250691Ended up with 250691
+This slice had an average percent difference in error of 0
+This slice had an average percent difference (adjusted for factor) in error of 6.20389e-05
+This slice had a max percent difference in error of 194.326
+2022-03-15 13:01:21 INFO  ren0 [PSACV] Done
+2022-03-15 13:01:21 INFO  ren0 [PSACV] Total samples used :  Init(0)  Iterations(1702740176)  Total(29680640.000000)
+Average pixel: 0.115356
+2022-03-15 13:01:21 INFO  ren0 [PSACV] [TIME *] Sampling routine callback 158199 milliseconds
+2022-03-15 13:01:21 INFO  ren0 [RenderJob] Render time: 35.0959m
+2022-03-15 13:01:21 INFO  ren0 [HDRFilm] Writing image to "/media/melody/Extra Space/home/melody/Documents/viltrum-mitsuba/scenes/dragon/scene_paper.exr" ..
+2022-03-15 13:01:21 INFO  main [statistics.cpp:142] Statistics:
 ------------------------------------------------------------
  * Loaded plugins :
     -  plugins/areacolor.so [Area light Color]
@@ -45,15 +66,15 @@ Average pixel: 0.115255
     -  plugins/scale.so [Scaling texture]
 
   * General :
-    -  Normal rays traced : 397.184 M
+    -  Normal rays traced : 3.405 G
 
   * Path tracer Quadrature :
-    -  Average path length : 1.00 (198.59 M / 198.59 M)
+    -  Average path length : 1.00 (1.70 G / 1.70 G)
 
   * Primary-Space Adaptive CV :
-    -  Total number of samples : 198.592 M
+    -  Total number of samples : 1.703 G
 
   * Texture system :
     -  Cumulative MIP map memory allocations : 2 MiB
-    -  Filtered texture lookups : 0.00 % (0.00 of 9.65 M)
+    -  Filtered texture lookups : 0.00 % (0.00 of 383.30 M)
 ------------------------------------------------------------

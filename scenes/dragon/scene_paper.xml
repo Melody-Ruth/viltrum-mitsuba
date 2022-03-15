@@ -7,7 +7,7 @@
 		<float name="scaleSpp" value="16"/>
 		<integer name="maxIterations" value="1"/>
 		<integer name="maxDepth" value="2"/>
-		<string name="typeIntegrator" value="cv_pixel_alphaOpt_antithetic"/>
+		<string name="typeIntegrator" value="cv_pixel_alphaOpt"/>
 		<string name="typeSubIntegrator" value="path"/>
 		<string name="higherQuadRule" value="simpson"/>
 		<float name="error_size_weight" value="0.00001"/>
