@@ -304,61 +304,61 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:390:11: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
   390 |      auto [value,sample] = sampler.sample(f,local_range,rng);
       |           ^
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:529:14: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
-  529 |         auto [value,sample] = sampler.sample(f,local_range,rng);
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:535:14: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
+  535 |         auto [value,sample] = sampler.sample(f,local_range,rng);
       |              ^
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:536:15: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
-  536 |          auto [value,sample] = sampler.sample(f,local_range,rng);
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:542:15: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
+  542 |          auto [value,sample] = sampler.sample(f,local_range,rng);
       |               ^
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:538:15: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
-  538 |          auto [value2,sample2] = sampler.sampleOpposite(f,local_range,rng,sample);
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:544:15: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
+  544 |          auto [value2,sample2] = sampler.sampleOpposite(f,local_range,rng,sample);
       |               ^
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:544:14: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
-  544 |         auto [value,sample] = sampler.sample(f,local_range,rng);
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:550:14: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
+  550 |         auto [value,sample] = sampler.sample(f,local_range,rng);
       |              ^
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:634:11: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
-  634 |      auto [value,sample] = sampler.sample(f,local_range,rng);
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:655:11: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
+  655 |      auto [value,sample] = sampler.sample(f,local_range,rng);
       |           ^
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:744:10: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
-  744 |     auto [value,sample] = sampler.sample(f,local_range,rng);
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:765:10: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
+  765 |     auto [value,sample] = sampler.sample(f,local_range,rng);
       |          ^
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:813:12: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
-  813 |       auto [tempFValue] = f(graphingSample, rng, true);
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:834:12: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
+  834 |       auto [tempFValue] = f(graphingSample, rng, true);
       |            ^
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:833:11: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
-  833 |      auto [value,sample] = sampler.sample(f,local_range,rng);
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:854:11: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
+  854 |      auto [value,sample] = sampler.sample(f,local_range,rng);
       |           ^
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:840:12: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
-  840 |       auto [value,sample] = sampler.sample(f,local_range,rng);
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:861:12: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
+  861 |       auto [value,sample] = sampler.sample(f,local_range,rng);
       |            ^
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:843:13: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
-  843 |        auto [value2,sample2] = sampler.sampleOpposite(f,local_range,rng,sample);
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:864:13: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
+  864 |        auto [value2,sample2] = sampler.sampleOpposite(f,local_range,rng,sample);
       |             ^
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:859:11: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
-  859 |      auto [value,sample] = sampler.sample(f,local_range,rng);
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:880:11: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
+  880 |      auto [value,sample] = sampler.sample(f,local_range,rng);
       |           ^
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h: In member function ‘void viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<RegionGenerator, AlphaCalculator, Sampler, RNG>::integrate(Bins&, const std::array<long unsigned int, DIMBINS>&, const F&, const viltrum::Range<Float, DIM>&) const’:
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:1028:11: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
- 1028 |      auto [value,sample] = sampler.sample(f,local_range,rng);
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:1049:11: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
+ 1049 |      auto [value,sample] = sampler.sample(f,local_range,rng);
       |           ^
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:1078:11: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
- 1078 |      auto [value,sample] = sampler.sample(f,local_range,rng);
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:1099:11: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
+ 1099 |      auto [value,sample] = sampler.sample(f,local_range,rng);
       |           ^
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:1081:12: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
- 1081 |       auto [value2,sample2] = sampler.sampleOpposite(f,local_range,rng,sample);
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:1102:12: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
+ 1102 |       auto [value2,sample2] = sampler.sampleOpposite(f,local_range,rng,sample);
       |            ^
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:1090:11: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
- 1090 |      auto [value,sample] = sampler.sample(f,local_range,rng);
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:1111:11: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
+ 1111 |      auto [value,sample] = sampler.sample(f,local_range,rng);
       |           ^
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:1100:10: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
- 1100 |     auto [value,sample] = sampler.sample(f,local_range,rng);
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:1121:10: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
+ 1121 |     auto [value,sample] = sampler.sample(f,local_range,rng);
       |          ^
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h: In member function ‘void viltrum::IntegratorStratifiedRegionControlVariates<RegionGenerator, AlphaCalculator, Sampler, RNG>::integrate(Bins&, const std::array<long unsigned int, DIMBINS>&, const F&, const viltrum::Range<Float, DIM>&) const’:
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:1174:11: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
- 1174 |      auto [value,sample] = sampler.sample(f,pixel_range,rng);
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:1195:11: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
+ 1195 |      auto [value,sample] = sampler.sample(f,pixel_range,rng);
       |           ^
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:1182:10: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
- 1182 |     auto [value,sample] = sampler.sample(f,r.range(),rng);
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:1203:10: warning: structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
+ 1203 |     auto [value,sample] = sampler.sample(f,r.range(),rng);
       |          ^
 In file included from src/integrators/quad/quadrature.cpp:25:
 src/integrators/quad/../../../ext/viltrum/quadrature/munoz2014.h: In member function ‘void viltrum::IntegratorBinsMunoz2014::integrate(Bins&, const std::array<long unsigned int, DIMBINS>&, const F&, const viltrum::Range<Float, DIM>&) const’:
@@ -741,26 +741,35 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:316:16: warning: variable ‘test’ set but not used [-Wunused-but-set-variable]
   316 |      for (auto test : regions_here[i]->range()) {
       |                ^~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:552:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  552 |        double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:549:34: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  549 |        for (std::size_t s = 0; s < numGroundTruthSamples; ++s) {
+      |                                ~~^~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:559:31: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  559 |        for (std::size_t s=1; s<numGroundTruthSamples;++s) {
+      |                              ~^~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:560:35: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  560 |         if (shouldUse >= 100 && s == numGroundTruthSamplesDefault-1) {
+      |                                 ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:558:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  558 |        double newTemp;
       |               ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:403:9: warning: unused variable ‘shouldUse’ [-Wunused-variable]
   403 |     int shouldUse = checkShouldUse(rng);
       |         ^~~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:872:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  872 |     double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:893:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  893 |     double newTemp;
       |            ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:305:11: warning: unused variable ‘iStep’ [-Wunused-variable]
   305 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
       |           ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:737:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  737 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:758:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  758 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:738:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  738 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:759:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  759 |    int numOther = 0;
       |        ^~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:739:8: warning: unused variable ‘firstR’ [-Wunused-variable]
-  739 |    int firstR = -1;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:760:8: warning: unused variable ‘firstR’ [-Wunused-variable]
+  760 |    int firstR = -1;
       |        ^~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:221:7: warning: unused variable ‘foundOne’ [-Wunused-variable]
   221 |   int foundOne = 0;
@@ -805,26 +814,35 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:316:16: warning: variable ‘test’ set but not used [-Wunused-but-set-variable]
   316 |      for (auto test : regions_here[i]->range()) {
       |                ^~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:552:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  552 |        double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:549:34: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  549 |        for (std::size_t s = 0; s < numGroundTruthSamples; ++s) {
+      |                                ~~^~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:559:31: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  559 |        for (std::size_t s=1; s<numGroundTruthSamples;++s) {
+      |                              ~^~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:560:35: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  560 |         if (shouldUse >= 100 && s == numGroundTruthSamplesDefault-1) {
+      |                                 ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:558:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  558 |        double newTemp;
       |               ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:403:9: warning: unused variable ‘shouldUse’ [-Wunused-variable]
   403 |     int shouldUse = checkShouldUse(rng);
       |         ^~~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:872:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  872 |     double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:893:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  893 |     double newTemp;
       |            ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:305:11: warning: unused variable ‘iStep’ [-Wunused-variable]
   305 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
       |           ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:737:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  737 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:758:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  758 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:738:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  738 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:759:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  759 |    int numOther = 0;
       |        ^~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:739:8: warning: unused variable ‘firstR’ [-Wunused-variable]
-  739 |    int firstR = -1;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:760:8: warning: unused variable ‘firstR’ [-Wunused-variable]
+  760 |    int firstR = -1;
       |        ^~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:221:7: warning: unused variable ‘foundOne’ [-Wunused-variable]
   221 |   int foundOne = 0;
@@ -869,26 +887,35 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:316:16: warning: variable ‘test’ set but not used [-Wunused-but-set-variable]
   316 |      for (auto test : regions_here[i]->range()) {
       |                ^~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:552:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  552 |        double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:549:34: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  549 |        for (std::size_t s = 0; s < numGroundTruthSamples; ++s) {
+      |                                ~~^~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:559:31: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  559 |        for (std::size_t s=1; s<numGroundTruthSamples;++s) {
+      |                              ~^~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:560:35: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  560 |         if (shouldUse >= 100 && s == numGroundTruthSamplesDefault-1) {
+      |                                 ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:558:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  558 |        double newTemp;
       |               ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:403:9: warning: unused variable ‘shouldUse’ [-Wunused-variable]
   403 |     int shouldUse = checkShouldUse(rng);
       |         ^~~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:872:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  872 |     double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:893:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  893 |     double newTemp;
       |            ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:305:11: warning: unused variable ‘iStep’ [-Wunused-variable]
   305 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
       |           ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:737:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  737 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:758:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  758 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:738:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  738 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:759:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  759 |    int numOther = 0;
       |        ^~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:739:8: warning: unused variable ‘firstR’ [-Wunused-variable]
-  739 |    int firstR = -1;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:760:8: warning: unused variable ‘firstR’ [-Wunused-variable]
+  760 |    int firstR = -1;
       |        ^~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:221:7: warning: unused variable ‘foundOne’ [-Wunused-variable]
   221 |   int foundOne = 0;
@@ -933,26 +960,35 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:316:16: warning: variable ‘test’ set but not used [-Wunused-but-set-variable]
   316 |      for (auto test : regions_here[i]->range()) {
       |                ^~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:552:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  552 |        double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:549:34: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  549 |        for (std::size_t s = 0; s < numGroundTruthSamples; ++s) {
+      |                                ~~^~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:559:31: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  559 |        for (std::size_t s=1; s<numGroundTruthSamples;++s) {
+      |                              ~^~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:560:35: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  560 |         if (shouldUse >= 100 && s == numGroundTruthSamplesDefault-1) {
+      |                                 ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:558:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  558 |        double newTemp;
       |               ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:403:9: warning: unused variable ‘shouldUse’ [-Wunused-variable]
   403 |     int shouldUse = checkShouldUse(rng);
       |         ^~~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:872:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  872 |     double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:893:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  893 |     double newTemp;
       |            ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:305:11: warning: unused variable ‘iStep’ [-Wunused-variable]
   305 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
       |           ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:737:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  737 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:758:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  758 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:738:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  738 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:759:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  759 |    int numOther = 0;
       |        ^~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:739:8: warning: unused variable ‘firstR’ [-Wunused-variable]
-  739 |    int firstR = -1;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:760:8: warning: unused variable ‘firstR’ [-Wunused-variable]
+  760 |    int firstR = -1;
       |        ^~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:221:7: warning: unused variable ‘foundOne’ [-Wunused-variable]
   221 |   int foundOne = 0;
@@ -997,26 +1033,35 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:316:16: warning: variable ‘test’ set but not used [-Wunused-but-set-variable]
   316 |      for (auto test : regions_here[i]->range()) {
       |                ^~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:552:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  552 |        double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:549:34: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  549 |        for (std::size_t s = 0; s < numGroundTruthSamples; ++s) {
+      |                                ~~^~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:559:31: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  559 |        for (std::size_t s=1; s<numGroundTruthSamples;++s) {
+      |                              ~^~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:560:35: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  560 |         if (shouldUse >= 100 && s == numGroundTruthSamplesDefault-1) {
+      |                                 ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:558:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  558 |        double newTemp;
       |               ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:403:9: warning: unused variable ‘shouldUse’ [-Wunused-variable]
   403 |     int shouldUse = checkShouldUse(rng);
       |         ^~~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:872:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  872 |     double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:893:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  893 |     double newTemp;
       |            ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:305:11: warning: unused variable ‘iStep’ [-Wunused-variable]
   305 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
       |           ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:737:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  737 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:758:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  758 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:738:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  738 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:759:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  759 |    int numOther = 0;
       |        ^~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:739:8: warning: unused variable ‘firstR’ [-Wunused-variable]
-  739 |    int firstR = -1;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:760:8: warning: unused variable ‘firstR’ [-Wunused-variable]
+  760 |    int firstR = -1;
       |        ^~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:221:7: warning: unused variable ‘foundOne’ [-Wunused-variable]
   221 |   int foundOne = 0;
@@ -1061,26 +1106,35 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:316:16: warning: variable ‘test’ set but not used [-Wunused-but-set-variable]
   316 |      for (auto test : regions_here[i]->range()) {
       |                ^~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:552:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  552 |        double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:549:34: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  549 |        for (std::size_t s = 0; s < numGroundTruthSamples; ++s) {
+      |                                ~~^~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:559:31: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  559 |        for (std::size_t s=1; s<numGroundTruthSamples;++s) {
+      |                              ~^~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:560:35: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  560 |         if (shouldUse >= 100 && s == numGroundTruthSamplesDefault-1) {
+      |                                 ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:558:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  558 |        double newTemp;
       |               ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:403:9: warning: unused variable ‘shouldUse’ [-Wunused-variable]
   403 |     int shouldUse = checkShouldUse(rng);
       |         ^~~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:872:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  872 |     double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:893:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  893 |     double newTemp;
       |            ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:305:11: warning: unused variable ‘iStep’ [-Wunused-variable]
   305 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
       |           ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:737:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  737 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:758:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  758 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:738:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  738 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:759:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  759 |    int numOther = 0;
       |        ^~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:739:8: warning: unused variable ‘firstR’ [-Wunused-variable]
-  739 |    int firstR = -1;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:760:8: warning: unused variable ‘firstR’ [-Wunused-variable]
+  760 |    int firstR = -1;
       |        ^~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:221:7: warning: unused variable ‘foundOne’ [-Wunused-variable]
   221 |   int foundOne = 0;
@@ -1125,26 +1179,35 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:316:16: warning: variable ‘test’ set but not used [-Wunused-but-set-variable]
   316 |      for (auto test : regions_here[i]->range()) {
       |                ^~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:552:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  552 |        double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:549:34: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  549 |        for (std::size_t s = 0; s < numGroundTruthSamples; ++s) {
+      |                                ~~^~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:559:31: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  559 |        for (std::size_t s=1; s<numGroundTruthSamples;++s) {
+      |                              ~^~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:560:35: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  560 |         if (shouldUse >= 100 && s == numGroundTruthSamplesDefault-1) {
+      |                                 ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:558:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  558 |        double newTemp;
       |               ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:403:9: warning: unused variable ‘shouldUse’ [-Wunused-variable]
   403 |     int shouldUse = checkShouldUse(rng);
       |         ^~~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:872:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  872 |     double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:893:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  893 |     double newTemp;
       |            ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:305:11: warning: unused variable ‘iStep’ [-Wunused-variable]
   305 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
       |           ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:737:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  737 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:758:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  758 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:738:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  738 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:759:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  759 |    int numOther = 0;
       |        ^~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:739:8: warning: unused variable ‘firstR’ [-Wunused-variable]
-  739 |    int firstR = -1;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:760:8: warning: unused variable ‘firstR’ [-Wunused-variable]
+  760 |    int firstR = -1;
       |        ^~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:221:7: warning: unused variable ‘foundOne’ [-Wunused-variable]
   221 |   int foundOne = 0;
@@ -1189,26 +1252,35 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:316:16: warning: variable ‘test’ set but not used [-Wunused-but-set-variable]
   316 |      for (auto test : regions_here[i]->range()) {
       |                ^~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:552:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  552 |        double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:549:34: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  549 |        for (std::size_t s = 0; s < numGroundTruthSamples; ++s) {
+      |                                ~~^~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:559:31: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  559 |        for (std::size_t s=1; s<numGroundTruthSamples;++s) {
+      |                              ~^~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:560:35: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  560 |         if (shouldUse >= 100 && s == numGroundTruthSamplesDefault-1) {
+      |                                 ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:558:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  558 |        double newTemp;
       |               ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:403:9: warning: unused variable ‘shouldUse’ [-Wunused-variable]
   403 |     int shouldUse = checkShouldUse(rng);
       |         ^~~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:872:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  872 |     double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:893:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  893 |     double newTemp;
       |            ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:305:11: warning: unused variable ‘iStep’ [-Wunused-variable]
   305 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
       |           ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:737:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  737 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:758:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  758 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:738:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  738 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:759:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  759 |    int numOther = 0;
       |        ^~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:739:8: warning: unused variable ‘firstR’ [-Wunused-variable]
-  739 |    int firstR = -1;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:760:8: warning: unused variable ‘firstR’ [-Wunused-variable]
+  760 |    int firstR = -1;
       |        ^~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:221:7: warning: unused variable ‘foundOne’ [-Wunused-variable]
   221 |   int foundOne = 0;
@@ -1253,26 +1325,35 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:316:16: warning: variable ‘test’ set but not used [-Wunused-but-set-variable]
   316 |      for (auto test : regions_here[i]->range()) {
       |                ^~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:552:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  552 |        double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:549:34: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  549 |        for (std::size_t s = 0; s < numGroundTruthSamples; ++s) {
+      |                                ~~^~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:559:31: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  559 |        for (std::size_t s=1; s<numGroundTruthSamples;++s) {
+      |                              ~^~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:560:35: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  560 |         if (shouldUse >= 100 && s == numGroundTruthSamplesDefault-1) {
+      |                                 ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:558:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  558 |        double newTemp;
       |               ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:403:9: warning: unused variable ‘shouldUse’ [-Wunused-variable]
   403 |     int shouldUse = checkShouldUse(rng);
       |         ^~~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:872:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  872 |     double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:893:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  893 |     double newTemp;
       |            ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:305:11: warning: unused variable ‘iStep’ [-Wunused-variable]
   305 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
       |           ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:737:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  737 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:758:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  758 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:738:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  738 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:759:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  759 |    int numOther = 0;
       |        ^~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:739:8: warning: unused variable ‘firstR’ [-Wunused-variable]
-  739 |    int firstR = -1;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:760:8: warning: unused variable ‘firstR’ [-Wunused-variable]
+  760 |    int firstR = -1;
       |        ^~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:221:7: warning: unused variable ‘foundOne’ [-Wunused-variable]
   221 |   int foundOne = 0;
@@ -1317,26 +1398,35 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:316:16: warning: variable ‘test’ set but not used [-Wunused-but-set-variable]
   316 |      for (auto test : regions_here[i]->range()) {
       |                ^~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:552:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  552 |        double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:549:34: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  549 |        for (std::size_t s = 0; s < numGroundTruthSamples; ++s) {
+      |                                ~~^~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:559:31: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  559 |        for (std::size_t s=1; s<numGroundTruthSamples;++s) {
+      |                              ~^~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:560:35: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  560 |         if (shouldUse >= 100 && s == numGroundTruthSamplesDefault-1) {
+      |                                 ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:558:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  558 |        double newTemp;
       |               ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:403:9: warning: unused variable ‘shouldUse’ [-Wunused-variable]
   403 |     int shouldUse = checkShouldUse(rng);
       |         ^~~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:872:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  872 |     double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:893:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  893 |     double newTemp;
       |            ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:305:11: warning: unused variable ‘iStep’ [-Wunused-variable]
   305 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
       |           ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:737:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  737 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:758:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  758 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:738:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  738 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:759:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  759 |    int numOther = 0;
       |        ^~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:739:8: warning: unused variable ‘firstR’ [-Wunused-variable]
-  739 |    int firstR = -1;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:760:8: warning: unused variable ‘firstR’ [-Wunused-variable]
+  760 |    int firstR = -1;
       |        ^~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:221:7: warning: unused variable ‘foundOne’ [-Wunused-variable]
   221 |   int foundOne = 0;
@@ -1381,26 +1471,35 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:316:16: warning: variable ‘test’ set but not used [-Wunused-but-set-variable]
   316 |      for (auto test : regions_here[i]->range()) {
       |                ^~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:552:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  552 |        double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:549:34: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  549 |        for (std::size_t s = 0; s < numGroundTruthSamples; ++s) {
+      |                                ~~^~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:559:31: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  559 |        for (std::size_t s=1; s<numGroundTruthSamples;++s) {
+      |                              ~^~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:560:35: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  560 |         if (shouldUse >= 100 && s == numGroundTruthSamplesDefault-1) {
+      |                                 ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:558:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  558 |        double newTemp;
       |               ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:403:9: warning: unused variable ‘shouldUse’ [-Wunused-variable]
   403 |     int shouldUse = checkShouldUse(rng);
       |         ^~~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:872:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  872 |     double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:893:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  893 |     double newTemp;
       |            ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:305:11: warning: unused variable ‘iStep’ [-Wunused-variable]
   305 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
       |           ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:737:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  737 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:758:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  758 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:738:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  738 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:759:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  759 |    int numOther = 0;
       |        ^~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:739:8: warning: unused variable ‘firstR’ [-Wunused-variable]
-  739 |    int firstR = -1;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:760:8: warning: unused variable ‘firstR’ [-Wunused-variable]
+  760 |    int firstR = -1;
       |        ^~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:221:7: warning: unused variable ‘foundOne’ [-Wunused-variable]
   221 |   int foundOne = 0;
@@ -1433,8 +1532,8 @@ src/integrators/quad/quadrature.cpp:558:4:   required from ‘void mitsuba::PSAC
 src/integrators/quad/quadrature.cpp:511:4:   required from ‘void mitsuba::PSACV::renderInternalDim(STEPPER&, std::string) [with STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:497:4:   required from ‘void mitsuba::PSACV::renderInternal(NESTEDQ&&, std::string) [with NESTEDQ = viltrum::Nested<viltrum::Boole, viltrum::Simpson>; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:451:53:   required from here
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:997:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
-  997 |   int regionType = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:1018:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
+ 1018 |   int regionType = 0;
       |       ^~~~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 3; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 3; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 3>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 3; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -1458,8 +1557,8 @@ src/integrators/quad/quadrature.cpp:551:5:   required from ‘void mitsuba::PSAC
 src/integrators/quad/quadrature.cpp:514:4:   required from ‘void mitsuba::PSACV::renderInternalDim(STEPPER&, std::string) [with STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:497:4:   required from ‘void mitsuba::PSACV::renderInternal(NESTEDQ&&, std::string) [with NESTEDQ = viltrum::Nested<viltrum::Boole, viltrum::Simpson>; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:451:53:   required from here
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:997:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
-  997 |   int regionType = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:1018:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
+ 1018 |   int regionType = 0;
       |       ^~~~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 3; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 3; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 3>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 3; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -1483,8 +1582,8 @@ src/integrators/quad/quadrature.cpp:554:5:   required from ‘void mitsuba::PSAC
 src/integrators/quad/quadrature.cpp:514:4:   required from ‘void mitsuba::PSACV::renderInternalDim(STEPPER&, std::string) [with STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:497:4:   required from ‘void mitsuba::PSACV::renderInternal(NESTEDQ&&, std::string) [with NESTEDQ = viltrum::Nested<viltrum::Boole, viltrum::Simpson>; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:451:53:   required from here
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:997:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
-  997 |   int regionType = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:1018:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
+ 1018 |   int regionType = 0;
       |       ^~~~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 4; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 4; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 4>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 4; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -1508,8 +1607,8 @@ src/integrators/quad/quadrature.cpp:551:5:   required from ‘void mitsuba::PSAC
 src/integrators/quad/quadrature.cpp:518:4:   required from ‘void mitsuba::PSACV::renderInternalDim(STEPPER&, std::string) [with STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:497:4:   required from ‘void mitsuba::PSACV::renderInternal(NESTEDQ&&, std::string) [with NESTEDQ = viltrum::Nested<viltrum::Boole, viltrum::Simpson>; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:451:53:   required from here
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:997:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
-  997 |   int regionType = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:1018:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
+ 1018 |   int regionType = 0;
       |       ^~~~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 4; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 4; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 4>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 4; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -1533,8 +1632,8 @@ src/integrators/quad/quadrature.cpp:554:5:   required from ‘void mitsuba::PSAC
 src/integrators/quad/quadrature.cpp:518:4:   required from ‘void mitsuba::PSACV::renderInternalDim(STEPPER&, std::string) [with STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:497:4:   required from ‘void mitsuba::PSACV::renderInternal(NESTEDQ&&, std::string) [with NESTEDQ = viltrum::Nested<viltrum::Boole, viltrum::Simpson>; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:451:53:   required from here
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:997:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
-  997 |   int regionType = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:1018:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
+ 1018 |   int regionType = 0;
       |       ^~~~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 5; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 5; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 5>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 5; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -1558,8 +1657,8 @@ src/integrators/quad/quadrature.cpp:551:5:   required from ‘void mitsuba::PSAC
 src/integrators/quad/quadrature.cpp:522:4:   required from ‘void mitsuba::PSACV::renderInternalDim(STEPPER&, std::string) [with STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:497:4:   required from ‘void mitsuba::PSACV::renderInternal(NESTEDQ&&, std::string) [with NESTEDQ = viltrum::Nested<viltrum::Boole, viltrum::Simpson>; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:451:53:   required from here
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:997:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
-  997 |   int regionType = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:1018:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
+ 1018 |   int regionType = 0;
       |       ^~~~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 5; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 5; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 5>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 5; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -1583,8 +1682,8 @@ src/integrators/quad/quadrature.cpp:554:5:   required from ‘void mitsuba::PSAC
 src/integrators/quad/quadrature.cpp:522:4:   required from ‘void mitsuba::PSACV::renderInternalDim(STEPPER&, std::string) [with STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:497:4:   required from ‘void mitsuba::PSACV::renderInternal(NESTEDQ&&, std::string) [with NESTEDQ = viltrum::Nested<viltrum::Boole, viltrum::Simpson>; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:451:53:   required from here
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:997:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
-  997 |   int regionType = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:1018:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
+ 1018 |   int regionType = 0;
       |       ^~~~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 6; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 6; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 6>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 6; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -1608,8 +1707,8 @@ src/integrators/quad/quadrature.cpp:551:5:   required from ‘void mitsuba::PSAC
 src/integrators/quad/quadrature.cpp:526:4:   required from ‘void mitsuba::PSACV::renderInternalDim(STEPPER&, std::string) [with STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:497:4:   required from ‘void mitsuba::PSACV::renderInternal(NESTEDQ&&, std::string) [with NESTEDQ = viltrum::Nested<viltrum::Boole, viltrum::Simpson>; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:451:53:   required from here
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:997:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
-  997 |   int regionType = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:1018:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
+ 1018 |   int regionType = 0;
       |       ^~~~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 6; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 6; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 6>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 6; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -1633,8 +1732,8 @@ src/integrators/quad/quadrature.cpp:554:5:   required from ‘void mitsuba::PSAC
 src/integrators/quad/quadrature.cpp:526:4:   required from ‘void mitsuba::PSACV::renderInternalDim(STEPPER&, std::string) [with STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:497:4:   required from ‘void mitsuba::PSACV::renderInternal(NESTEDQ&&, std::string) [with NESTEDQ = viltrum::Nested<viltrum::Boole, viltrum::Simpson>; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:451:53:   required from here
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:997:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
-  997 |   int regionType = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:1018:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
+ 1018 |   int regionType = 0;
       |       ^~~~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 7; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 7; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 7>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 7; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -1658,8 +1757,8 @@ src/integrators/quad/quadrature.cpp:551:5:   required from ‘void mitsuba::PSAC
 src/integrators/quad/quadrature.cpp:530:4:   required from ‘void mitsuba::PSACV::renderInternalDim(STEPPER&, std::string) [with STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:497:4:   required from ‘void mitsuba::PSACV::renderInternal(NESTEDQ&&, std::string) [with NESTEDQ = viltrum::Nested<viltrum::Boole, viltrum::Simpson>; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:451:53:   required from here
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:997:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
-  997 |   int regionType = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:1018:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
+ 1018 |   int regionType = 0;
       |       ^~~~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 7; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 7; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 7>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 7; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -1683,8 +1782,8 @@ src/integrators/quad/quadrature.cpp:554:5:   required from ‘void mitsuba::PSAC
 src/integrators/quad/quadrature.cpp:530:4:   required from ‘void mitsuba::PSACV::renderInternalDim(STEPPER&, std::string) [with STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Boole, viltrum::Simpson>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:497:4:   required from ‘void mitsuba::PSACV::renderInternal(NESTEDQ&&, std::string) [with NESTEDQ = viltrum::Nested<viltrum::Boole, viltrum::Simpson>; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:451:53:   required from here
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:997:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
-  997 |   int regionType = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:1018:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
+ 1018 |   int regionType = 0;
       |       ^~~~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 2; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 2; bool ISVIDEO = false; STEPPER = viltrum::IntegratorBinsMunoz2014; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 2>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 2; bool ISVIDEO = false; STEPPER = viltrum::IntegratorBinsMunoz2014; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -2050,26 +2149,35 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:316:16: warning: variable ‘test’ set but not used [-Wunused-but-set-variable]
   316 |      for (auto test : regions_here[i]->range()) {
       |                ^~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:552:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  552 |        double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:549:34: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  549 |        for (std::size_t s = 0; s < numGroundTruthSamples; ++s) {
+      |                                ~~^~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:559:31: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  559 |        for (std::size_t s=1; s<numGroundTruthSamples;++s) {
+      |                              ~^~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:560:35: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  560 |         if (shouldUse >= 100 && s == numGroundTruthSamplesDefault-1) {
+      |                                 ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:558:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  558 |        double newTemp;
       |               ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:403:9: warning: unused variable ‘shouldUse’ [-Wunused-variable]
   403 |     int shouldUse = checkShouldUse(rng);
       |         ^~~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:872:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  872 |     double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:893:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  893 |     double newTemp;
       |            ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:305:11: warning: unused variable ‘iStep’ [-Wunused-variable]
   305 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
       |           ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:737:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  737 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:758:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  758 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:738:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  738 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:759:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  759 |    int numOther = 0;
       |        ^~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:739:8: warning: unused variable ‘firstR’ [-Wunused-variable]
-  739 |    int firstR = -1;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:760:8: warning: unused variable ‘firstR’ [-Wunused-variable]
+  760 |    int firstR = -1;
       |        ^~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:221:7: warning: unused variable ‘foundOne’ [-Wunused-variable]
   221 |   int foundOne = 0;
@@ -2114,26 +2222,35 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:316:16: warning: variable ‘test’ set but not used [-Wunused-but-set-variable]
   316 |      for (auto test : regions_here[i]->range()) {
       |                ^~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:552:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  552 |        double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:549:34: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  549 |        for (std::size_t s = 0; s < numGroundTruthSamples; ++s) {
+      |                                ~~^~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:559:31: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  559 |        for (std::size_t s=1; s<numGroundTruthSamples;++s) {
+      |                              ~^~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:560:35: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  560 |         if (shouldUse >= 100 && s == numGroundTruthSamplesDefault-1) {
+      |                                 ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:558:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  558 |        double newTemp;
       |               ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:403:9: warning: unused variable ‘shouldUse’ [-Wunused-variable]
   403 |     int shouldUse = checkShouldUse(rng);
       |         ^~~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:872:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  872 |     double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:893:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  893 |     double newTemp;
       |            ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:305:11: warning: unused variable ‘iStep’ [-Wunused-variable]
   305 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
       |           ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:737:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  737 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:758:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  758 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:738:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  738 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:759:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  759 |    int numOther = 0;
       |        ^~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:739:8: warning: unused variable ‘firstR’ [-Wunused-variable]
-  739 |    int firstR = -1;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:760:8: warning: unused variable ‘firstR’ [-Wunused-variable]
+  760 |    int firstR = -1;
       |        ^~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:221:7: warning: unused variable ‘foundOne’ [-Wunused-variable]
   221 |   int foundOne = 0;
@@ -2178,26 +2295,35 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:316:16: warning: variable ‘test’ set but not used [-Wunused-but-set-variable]
   316 |      for (auto test : regions_here[i]->range()) {
       |                ^~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:552:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  552 |        double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:549:34: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  549 |        for (std::size_t s = 0; s < numGroundTruthSamples; ++s) {
+      |                                ~~^~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:559:31: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  559 |        for (std::size_t s=1; s<numGroundTruthSamples;++s) {
+      |                              ~^~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:560:35: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  560 |         if (shouldUse >= 100 && s == numGroundTruthSamplesDefault-1) {
+      |                                 ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:558:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  558 |        double newTemp;
       |               ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:403:9: warning: unused variable ‘shouldUse’ [-Wunused-variable]
   403 |     int shouldUse = checkShouldUse(rng);
       |         ^~~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:872:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  872 |     double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:893:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  893 |     double newTemp;
       |            ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:305:11: warning: unused variable ‘iStep’ [-Wunused-variable]
   305 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
       |           ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:737:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  737 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:758:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  758 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:738:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  738 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:759:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  759 |    int numOther = 0;
       |        ^~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:739:8: warning: unused variable ‘firstR’ [-Wunused-variable]
-  739 |    int firstR = -1;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:760:8: warning: unused variable ‘firstR’ [-Wunused-variable]
+  760 |    int firstR = -1;
       |        ^~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:221:7: warning: unused variable ‘foundOne’ [-Wunused-variable]
   221 |   int foundOne = 0;
@@ -2242,26 +2368,35 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:316:16: warning: variable ‘test’ set but not used [-Wunused-but-set-variable]
   316 |      for (auto test : regions_here[i]->range()) {
       |                ^~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:552:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  552 |        double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:549:34: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  549 |        for (std::size_t s = 0; s < numGroundTruthSamples; ++s) {
+      |                                ~~^~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:559:31: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  559 |        for (std::size_t s=1; s<numGroundTruthSamples;++s) {
+      |                              ~^~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:560:35: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  560 |         if (shouldUse >= 100 && s == numGroundTruthSamplesDefault-1) {
+      |                                 ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:558:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  558 |        double newTemp;
       |               ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:403:9: warning: unused variable ‘shouldUse’ [-Wunused-variable]
   403 |     int shouldUse = checkShouldUse(rng);
       |         ^~~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:872:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  872 |     double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:893:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  893 |     double newTemp;
       |            ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:305:11: warning: unused variable ‘iStep’ [-Wunused-variable]
   305 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
       |           ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:737:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  737 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:758:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  758 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:738:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  738 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:759:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  759 |    int numOther = 0;
       |        ^~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:739:8: warning: unused variable ‘firstR’ [-Wunused-variable]
-  739 |    int firstR = -1;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:760:8: warning: unused variable ‘firstR’ [-Wunused-variable]
+  760 |    int firstR = -1;
       |        ^~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:221:7: warning: unused variable ‘foundOne’ [-Wunused-variable]
   221 |   int foundOne = 0;
@@ -2306,26 +2441,35 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:316:16: warning: variable ‘test’ set but not used [-Wunused-but-set-variable]
   316 |      for (auto test : regions_here[i]->range()) {
       |                ^~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:552:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  552 |        double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:549:34: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  549 |        for (std::size_t s = 0; s < numGroundTruthSamples; ++s) {
+      |                                ~~^~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:559:31: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  559 |        for (std::size_t s=1; s<numGroundTruthSamples;++s) {
+      |                              ~^~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:560:35: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  560 |         if (shouldUse >= 100 && s == numGroundTruthSamplesDefault-1) {
+      |                                 ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:558:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  558 |        double newTemp;
       |               ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:403:9: warning: unused variable ‘shouldUse’ [-Wunused-variable]
   403 |     int shouldUse = checkShouldUse(rng);
       |         ^~~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:872:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  872 |     double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:893:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  893 |     double newTemp;
       |            ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:305:11: warning: unused variable ‘iStep’ [-Wunused-variable]
   305 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
       |           ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:737:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  737 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:758:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  758 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:738:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  738 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:759:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  759 |    int numOther = 0;
       |        ^~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:739:8: warning: unused variable ‘firstR’ [-Wunused-variable]
-  739 |    int firstR = -1;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:760:8: warning: unused variable ‘firstR’ [-Wunused-variable]
+  760 |    int firstR = -1;
       |        ^~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:221:7: warning: unused variable ‘foundOne’ [-Wunused-variable]
   221 |   int foundOne = 0;
@@ -2370,26 +2514,35 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:316:16: warning: variable ‘test’ set but not used [-Wunused-but-set-variable]
   316 |      for (auto test : regions_here[i]->range()) {
       |                ^~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:552:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  552 |        double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:549:34: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  549 |        for (std::size_t s = 0; s < numGroundTruthSamples; ++s) {
+      |                                ~~^~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:559:31: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  559 |        for (std::size_t s=1; s<numGroundTruthSamples;++s) {
+      |                              ~^~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:560:35: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  560 |         if (shouldUse >= 100 && s == numGroundTruthSamplesDefault-1) {
+      |                                 ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:558:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  558 |        double newTemp;
       |               ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:403:9: warning: unused variable ‘shouldUse’ [-Wunused-variable]
   403 |     int shouldUse = checkShouldUse(rng);
       |         ^~~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:872:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  872 |     double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:893:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  893 |     double newTemp;
       |            ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:305:11: warning: unused variable ‘iStep’ [-Wunused-variable]
   305 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
       |           ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:737:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  737 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:758:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  758 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:738:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  738 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:759:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  759 |    int numOther = 0;
       |        ^~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:739:8: warning: unused variable ‘firstR’ [-Wunused-variable]
-  739 |    int firstR = -1;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:760:8: warning: unused variable ‘firstR’ [-Wunused-variable]
+  760 |    int firstR = -1;
       |        ^~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:221:7: warning: unused variable ‘foundOne’ [-Wunused-variable]
   221 |   int foundOne = 0;
@@ -2434,26 +2587,35 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:316:16: warning: variable ‘test’ set but not used [-Wunused-but-set-variable]
   316 |      for (auto test : regions_here[i]->range()) {
       |                ^~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:552:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  552 |        double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:549:34: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  549 |        for (std::size_t s = 0; s < numGroundTruthSamples; ++s) {
+      |                                ~~^~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:559:31: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  559 |        for (std::size_t s=1; s<numGroundTruthSamples;++s) {
+      |                              ~^~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:560:35: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  560 |         if (shouldUse >= 100 && s == numGroundTruthSamplesDefault-1) {
+      |                                 ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:558:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  558 |        double newTemp;
       |               ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:403:9: warning: unused variable ‘shouldUse’ [-Wunused-variable]
   403 |     int shouldUse = checkShouldUse(rng);
       |         ^~~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:872:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  872 |     double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:893:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  893 |     double newTemp;
       |            ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:305:11: warning: unused variable ‘iStep’ [-Wunused-variable]
   305 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
       |           ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:737:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  737 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:758:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  758 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:738:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  738 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:759:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  759 |    int numOther = 0;
       |        ^~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:739:8: warning: unused variable ‘firstR’ [-Wunused-variable]
-  739 |    int firstR = -1;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:760:8: warning: unused variable ‘firstR’ [-Wunused-variable]
+  760 |    int firstR = -1;
       |        ^~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:221:7: warning: unused variable ‘foundOne’ [-Wunused-variable]
   221 |   int foundOne = 0;
@@ -2498,26 +2660,35 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:316:16: warning: variable ‘test’ set but not used [-Wunused-but-set-variable]
   316 |      for (auto test : regions_here[i]->range()) {
       |                ^~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:552:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  552 |        double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:549:34: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  549 |        for (std::size_t s = 0; s < numGroundTruthSamples; ++s) {
+      |                                ~~^~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:559:31: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  559 |        for (std::size_t s=1; s<numGroundTruthSamples;++s) {
+      |                              ~^~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:560:35: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  560 |         if (shouldUse >= 100 && s == numGroundTruthSamplesDefault-1) {
+      |                                 ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:558:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  558 |        double newTemp;
       |               ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:403:9: warning: unused variable ‘shouldUse’ [-Wunused-variable]
   403 |     int shouldUse = checkShouldUse(rng);
       |         ^~~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:872:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  872 |     double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:893:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  893 |     double newTemp;
       |            ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:305:11: warning: unused variable ‘iStep’ [-Wunused-variable]
   305 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
       |           ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:737:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  737 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:758:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  758 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:738:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  738 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:759:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  759 |    int numOther = 0;
       |        ^~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:739:8: warning: unused variable ‘firstR’ [-Wunused-variable]
-  739 |    int firstR = -1;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:760:8: warning: unused variable ‘firstR’ [-Wunused-variable]
+  760 |    int firstR = -1;
       |        ^~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:221:7: warning: unused variable ‘foundOne’ [-Wunused-variable]
   221 |   int foundOne = 0;
@@ -2562,26 +2733,35 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:316:16: warning: variable ‘test’ set but not used [-Wunused-but-set-variable]
   316 |      for (auto test : regions_here[i]->range()) {
       |                ^~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:552:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  552 |        double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:549:34: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  549 |        for (std::size_t s = 0; s < numGroundTruthSamples; ++s) {
+      |                                ~~^~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:559:31: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  559 |        for (std::size_t s=1; s<numGroundTruthSamples;++s) {
+      |                              ~^~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:560:35: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  560 |         if (shouldUse >= 100 && s == numGroundTruthSamplesDefault-1) {
+      |                                 ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:558:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  558 |        double newTemp;
       |               ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:403:9: warning: unused variable ‘shouldUse’ [-Wunused-variable]
   403 |     int shouldUse = checkShouldUse(rng);
       |         ^~~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:872:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  872 |     double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:893:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  893 |     double newTemp;
       |            ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:305:11: warning: unused variable ‘iStep’ [-Wunused-variable]
   305 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
       |           ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:737:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  737 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:758:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  758 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:738:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  738 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:759:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  759 |    int numOther = 0;
       |        ^~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:739:8: warning: unused variable ‘firstR’ [-Wunused-variable]
-  739 |    int firstR = -1;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:760:8: warning: unused variable ‘firstR’ [-Wunused-variable]
+  760 |    int firstR = -1;
       |        ^~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:221:7: warning: unused variable ‘foundOne’ [-Wunused-variable]
   221 |   int foundOne = 0;
@@ -2626,26 +2806,35 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:316:16: warning: variable ‘test’ set but not used [-Wunused-but-set-variable]
   316 |      for (auto test : regions_here[i]->range()) {
       |                ^~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:552:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  552 |        double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:549:34: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  549 |        for (std::size_t s = 0; s < numGroundTruthSamples; ++s) {
+      |                                ~~^~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:559:31: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  559 |        for (std::size_t s=1; s<numGroundTruthSamples;++s) {
+      |                              ~^~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:560:35: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  560 |         if (shouldUse >= 100 && s == numGroundTruthSamplesDefault-1) {
+      |                                 ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:558:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  558 |        double newTemp;
       |               ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:403:9: warning: unused variable ‘shouldUse’ [-Wunused-variable]
   403 |     int shouldUse = checkShouldUse(rng);
       |         ^~~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:872:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  872 |     double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:893:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  893 |     double newTemp;
       |            ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:305:11: warning: unused variable ‘iStep’ [-Wunused-variable]
   305 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
       |           ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:737:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  737 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:758:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  758 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:738:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  738 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:759:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  759 |    int numOther = 0;
       |        ^~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:739:8: warning: unused variable ‘firstR’ [-Wunused-variable]
-  739 |    int firstR = -1;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:760:8: warning: unused variable ‘firstR’ [-Wunused-variable]
+  760 |    int firstR = -1;
       |        ^~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:221:7: warning: unused variable ‘foundOne’ [-Wunused-variable]
   221 |   int foundOne = 0;
@@ -2690,26 +2879,35 @@ src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptiv
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:316:16: warning: variable ‘test’ set but not used [-Wunused-but-set-variable]
   316 |      for (auto test : regions_here[i]->range()) {
       |                ^~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:552:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  552 |        double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:549:34: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  549 |        for (std::size_t s = 0; s < numGroundTruthSamples; ++s) {
+      |                                ~~^~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:559:31: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  559 |        for (std::size_t s=1; s<numGroundTruthSamples;++s) {
+      |                              ~^~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:560:35: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  560 |         if (shouldUse >= 100 && s == numGroundTruthSamplesDefault-1) {
+      |                                 ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:558:15: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  558 |        double newTemp;
       |               ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:403:9: warning: unused variable ‘shouldUse’ [-Wunused-variable]
   403 |     int shouldUse = checkShouldUse(rng);
       |         ^~~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:872:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
-  872 |     double newTemp;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:893:12: warning: unused variable ‘newTemp’ [-Wunused-variable]
+  893 |     double newTemp;
       |            ^~~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:305:11: warning: unused variable ‘iStep’ [-Wunused-variable]
   305 |    double iStep = (pixel_range.max(0)-pixel_range.min(0))/100;
       |           ^~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:737:8: warning: unused variable ‘numFive’ [-Wunused-variable]
-  737 |    int numFive = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:758:8: warning: unused variable ‘numFive’ [-Wunused-variable]
+  758 |    int numFive = 0;
       |        ^~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:738:8: warning: unused variable ‘numOther’ [-Wunused-variable]
-  738 |    int numOther = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:759:8: warning: unused variable ‘numOther’ [-Wunused-variable]
+  759 |    int numOther = 0;
       |        ^~~~~~~~
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:739:8: warning: unused variable ‘firstR’ [-Wunused-variable]
-  739 |    int firstR = -1;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:760:8: warning: unused variable ‘firstR’ [-Wunused-variable]
+  760 |    int firstR = -1;
       |        ^~~~~~
 src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:221:7: warning: unused variable ‘foundOne’ [-Wunused-variable]
   221 |   int foundOne = 0;
@@ -2742,8 +2940,8 @@ src/integrators/quad/quadrature.cpp:558:4:   required from ‘void mitsuba::PSAC
 src/integrators/quad/quadrature.cpp:511:4:   required from ‘void mitsuba::PSACV::renderInternalDim(STEPPER&, std::string) [with STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:497:4:   required from ‘void mitsuba::PSACV::renderInternal(NESTEDQ&&, std::string) [with NESTEDQ = viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:455:59:   required from here
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:997:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
-  997 |   int regionType = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:1018:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
+ 1018 |   int regionType = 0;
       |       ^~~~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 3; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 3; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 3>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 3; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -2767,8 +2965,8 @@ src/integrators/quad/quadrature.cpp:551:5:   required from ‘void mitsuba::PSAC
 src/integrators/quad/quadrature.cpp:514:4:   required from ‘void mitsuba::PSACV::renderInternalDim(STEPPER&, std::string) [with STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:497:4:   required from ‘void mitsuba::PSACV::renderInternal(NESTEDQ&&, std::string) [with NESTEDQ = viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:455:59:   required from here
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:997:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
-  997 |   int regionType = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:1018:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
+ 1018 |   int regionType = 0;
       |       ^~~~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 3; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 3; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 3>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 3; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -2792,8 +2990,8 @@ src/integrators/quad/quadrature.cpp:554:5:   required from ‘void mitsuba::PSAC
 src/integrators/quad/quadrature.cpp:514:4:   required from ‘void mitsuba::PSACV::renderInternalDim(STEPPER&, std::string) [with STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:497:4:   required from ‘void mitsuba::PSACV::renderInternal(NESTEDQ&&, std::string) [with NESTEDQ = viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:455:59:   required from here
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:997:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
-  997 |   int regionType = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:1018:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
+ 1018 |   int regionType = 0;
       |       ^~~~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 4; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 4; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 4>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 4; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -2817,8 +3015,8 @@ src/integrators/quad/quadrature.cpp:551:5:   required from ‘void mitsuba::PSAC
 src/integrators/quad/quadrature.cpp:518:4:   required from ‘void mitsuba::PSACV::renderInternalDim(STEPPER&, std::string) [with STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:497:4:   required from ‘void mitsuba::PSACV::renderInternal(NESTEDQ&&, std::string) [with NESTEDQ = viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:455:59:   required from here
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:997:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
-  997 |   int regionType = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:1018:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
+ 1018 |   int regionType = 0;
       |       ^~~~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 4; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 4; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 4>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 4; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -2842,8 +3040,8 @@ src/integrators/quad/quadrature.cpp:554:5:   required from ‘void mitsuba::PSAC
 src/integrators/quad/quadrature.cpp:518:4:   required from ‘void mitsuba::PSACV::renderInternalDim(STEPPER&, std::string) [with STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:497:4:   required from ‘void mitsuba::PSACV::renderInternal(NESTEDQ&&, std::string) [with NESTEDQ = viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:455:59:   required from here
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:997:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
-  997 |   int regionType = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:1018:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
+ 1018 |   int regionType = 0;
       |       ^~~~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 5; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 5; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 5>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 5; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -2867,8 +3065,8 @@ src/integrators/quad/quadrature.cpp:551:5:   required from ‘void mitsuba::PSAC
 src/integrators/quad/quadrature.cpp:522:4:   required from ‘void mitsuba::PSACV::renderInternalDim(STEPPER&, std::string) [with STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:497:4:   required from ‘void mitsuba::PSACV::renderInternal(NESTEDQ&&, std::string) [with NESTEDQ = viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:455:59:   required from here
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:997:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
-  997 |   int regionType = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:1018:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
+ 1018 |   int regionType = 0;
       |       ^~~~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 5; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 5; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 5>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 5; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -2892,8 +3090,8 @@ src/integrators/quad/quadrature.cpp:554:5:   required from ‘void mitsuba::PSAC
 src/integrators/quad/quadrature.cpp:522:4:   required from ‘void mitsuba::PSACV::renderInternalDim(STEPPER&, std::string) [with STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:497:4:   required from ‘void mitsuba::PSACV::renderInternal(NESTEDQ&&, std::string) [with NESTEDQ = viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:455:59:   required from here
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:997:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
-  997 |   int regionType = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:1018:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
+ 1018 |   int regionType = 0;
       |       ^~~~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 6; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 6; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 6>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 6; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -2917,8 +3115,8 @@ src/integrators/quad/quadrature.cpp:551:5:   required from ‘void mitsuba::PSAC
 src/integrators/quad/quadrature.cpp:526:4:   required from ‘void mitsuba::PSACV::renderInternalDim(STEPPER&, std::string) [with STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:497:4:   required from ‘void mitsuba::PSACV::renderInternal(NESTEDQ&&, std::string) [with NESTEDQ = viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:455:59:   required from here
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:997:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
-  997 |   int regionType = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:1018:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
+ 1018 |   int regionType = 0;
       |       ^~~~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 6; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 6; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 6>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 6; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -2942,8 +3140,8 @@ src/integrators/quad/quadrature.cpp:554:5:   required from ‘void mitsuba::PSAC
 src/integrators/quad/quadrature.cpp:526:4:   required from ‘void mitsuba::PSACV::renderInternalDim(STEPPER&, std::string) [with STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:497:4:   required from ‘void mitsuba::PSACV::renderInternal(NESTEDQ&&, std::string) [with NESTEDQ = viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:455:59:   required from here
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:997:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
-  997 |   int regionType = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:1018:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
+ 1018 |   int regionType = 0;
       |       ^~~~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 7; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 7; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 7>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 7; bool ISVIDEO = true; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -2967,8 +3165,8 @@ src/integrators/quad/quadrature.cpp:551:5:   required from ‘void mitsuba::PSAC
 src/integrators/quad/quadrature.cpp:530:4:   required from ‘void mitsuba::PSACV::renderInternalDim(STEPPER&, std::string) [with STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:497:4:   required from ‘void mitsuba::PSACV::renderInternal(NESTEDQ&&, std::string) [with NESTEDQ = viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:455:59:   required from here
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:997:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
-  997 |   int regionType = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:1018:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
+ 1018 |   int regionType = 0;
       |       ^~~~~~~~~~
 src/integrators/quad/quadrature.cpp: In instantiation of ‘mitsuba::FunctionWrapper<NDIM, F>::FunctionWrapper(const F&, int) [with int NDIM = 7; F = mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 7; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]::<lambda(const std::array<double, 7>&, auto:13, bool)>]’:
 src/integrators/quad/quadrature.cpp:568:39:   required from ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 7; bool ISVIDEO = false; STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<mitsuba::is_integrator<STEPPER>::value>::type* <anonymous> = 0; std::string = std::__cxx11::basic_string<char>]’
@@ -2992,8 +3190,8 @@ src/integrators/quad/quadrature.cpp:554:5:   required from ‘void mitsuba::PSAC
 src/integrators/quad/quadrature.cpp:530:4:   required from ‘void mitsuba::PSACV::renderInternalDim(STEPPER&, std::string) [with STEPPER = viltrum::IntegratorStratifiedPixelControlVariatesAntithetic<viltrum::RegionGenerator<viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>, viltrum::ErrorSingleDimensionSize>, viltrum::AlphaOptimized, mitsuba::FunctionResidual, std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> >; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:497:4:   required from ‘void mitsuba::PSACV::renderInternal(NESTEDQ&&, std::string) [with NESTEDQ = viltrum::Nested<viltrum::Simpson, viltrum::Trapezoidal>; std::string = std::__cxx11::basic_string<char>]’
 src/integrators/quad/quadrature.cpp:455:59:   required from here
-src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:997:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
-  997 |   int regionType = 0;
+src/integrators/quad/../../../ext/viltrum/quadrature/integrate-optimized-adaptive-stratified-control-variates.h:1018:7: warning: variable ‘regionType’ set but not used [-Wunused-but-set-variable]
+ 1018 |   int regionType = 0;
       |       ^~~~~~~~~~
 In file included from include/mitsuba/mitsuba.h:55,
                  from include/mitsuba/core/cobject.h:23,
@@ -3390,7 +3588,7 @@ In file included from include/mitsuba/mitsuba.h:55,
                  from include/mitsuba/core/netobject.h:23,
                  from include/mitsuba/render/scene.h:23,
                  from src/integrators/quad/quadrature.cpp:5:
-include/mitsuba/core/point.h: In member function ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 4; bool ISVIDEO = true; STEPPER = viltrum::StepperBinsPerBin<viltrum::StepperMonteCarloUniform<std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> > >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<(! mitsuba::is_integrator<STEPPER>::value)>::type* <anonymous> = 0]’:
+include/mitsuba/core/point.h: In member function ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 4; bool ISVIDEO = false; STEPPER = viltrum::StepperBinsPerBin<viltrum::StepperMonteCarloUniform<std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> > >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<(! mitsuba::is_integrator<STEPPER>::value)>::type* <anonymous> = 0]’:
 include/mitsuba/core/point.h:489:46: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
   489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
       |                                              ^
@@ -3455,7 +3653,7 @@ In file included from include/mitsuba/mitsuba.h:55,
                  from include/mitsuba/core/netobject.h:23,
                  from include/mitsuba/render/scene.h:23,
                  from src/integrators/quad/quadrature.cpp:5:
-include/mitsuba/core/point.h: In member function ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 4; bool ISVIDEO = false; STEPPER = viltrum::StepperBinsPerBin<viltrum::StepperMonteCarloUniform<std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> > >; RESOLUTION = std::array<long unsigned int, 2>; typename std::enable_if<(! mitsuba::is_integrator<STEPPER>::value)>::type* <anonymous> = 0]’:
+include/mitsuba/core/point.h: In member function ‘void mitsuba::PSACV::auxRenderInternalFinal(STEPPER&, RESOLUTION&, std::string) [with int NDIMS = 4; bool ISVIDEO = true; STEPPER = viltrum::StepperBinsPerBin<viltrum::StepperMonteCarloUniform<std::mersenne_twister_engine<long unsigned int, 64, 312, 156, 31, 13043109905998158313, 29, 6148914691236517205, 17, 8202884508482404352, 37, 18444473444759240704, 43, 6364136223846793005> > >; RESOLUTION = std::array<long unsigned int, 3>; typename std::enable_if<(! mitsuba::is_integrator<STEPPER>::value)>::type* <anonymous> = 0]’:
 include/mitsuba/core/point.h:489:46: warning: ‘*((void*)(& eyeRay)+96).mitsuba::TPoint3<double>::z’ may be used uninitialized in this function [-Wmaybe-uninitialized]
   489 |         return TVector3<T>(x - p.x, y - p.y, z - p.z);
       |                                              ^
