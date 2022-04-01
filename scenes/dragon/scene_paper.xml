@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <scene version="0.6.0">
 	<integrator type="quad">
-		<float name="spp" value="155"/>
+		<float name="spp" value="135"/>
 		<integer name="n_dims" value="4"/>
 		<float name="spp_cv" value="-1"/>
 		<float name="scaleSpp" value="16"/>

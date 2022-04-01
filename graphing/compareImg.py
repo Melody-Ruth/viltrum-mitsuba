@@ -21,17 +21,17 @@ for i in range(len(r1)):
     rmseRedNonAn += (r3[i]-r1[i])**2
 
 for i in range(len(r1)):
-    #rmseRedNon += (g2[i]-g1[i])**2
-    #rmseRedNonAn += (g2[i]-g1[i])**2
+    rmseRedNon += (g2[i]-g1[i])**2
+    rmseRedNonAn += (g3[i]-g1[i])**2
     justGreen += (g2[i]-g1[i])**2
     justGreenAntithetic += (g3[i]-g1[i])**2
-    #if percentDiff((g2[i]-g1[i])**2, (g3[i]-g1[i])**2) > 1.95:
+    #if percentDiff((g2[i]-g1[i])**2, (g3[i]-g1[i])**2) < -1.95:
         #print(i, g1[i], g2[i], g3[i])
 
 for i in range(len(r1)):
-    rmseRedNon = rmseRedNon
-    #rmseRedNon += (b2[i]-b1[i])**2
-    #rmseRedNonAn += (b2[i]-b1[i])**2
+    #rmseRedNon = rmseRedNon
+    rmseRedNon += (b2[i]-b1[i])**2
+    rmseRedNonAn += (b3[i]-b1[i])**2
 
 rmseRedNon /= len(r1)
 rmseRedNon **= 0.5
@@ -44,8 +44,8 @@ justGreenAntithetic **= 0.5
 
 print(rmseRedNon)
 print(rmseRedNonAn)
-print(justGreen)
-print(justGreenAntithetic)
+#print(justGreen)
+#print(justGreenAntithetic)
 
 rmseRedNon = 0
 for i in range(len(r1)):
