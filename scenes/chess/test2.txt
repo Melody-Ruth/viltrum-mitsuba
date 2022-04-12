@@ -1,0 +1,38 @@
+2022-04-09 22:27:03 INFO  main [mitsuba.cpp:274] Mitsuba version 0.6.0 (Linux, 64 bit), Copyright (c) 2017 Wenzel Jakob
+2022-04-09 22:27:03 INFO  main [mitsuba.cpp:377] Parsing scene description from "scene_paper.xml" ..
+2022-04-09 22:27:03 INFO  main [PluginManager] Loading plugin "plugins/quad.so" ..
+2022-04-09 22:27:03 INFO  main [PluginManager] Loading plugin "plugins/constant.so" ..
+2022-04-09 22:27:03 INFO  main [PluginManager] Loading plugin "plugins/independentrandom.so" ..
+2022-04-09 22:27:03 INFO  main [PluginManager] Loading plugin "plugins/box.so" ..
+2022-04-09 22:27:03 INFO  main [PluginManager] Loading plugin "plugins/hdrfilm.so" ..
+2022-04-09 22:27:03 INFO  main [PluginManager] Loading plugin "plugins/thinlens.so" ..
+2022-04-09 22:27:03 INFO  main [PluginManager] Loading plugin "plugins/point.so" ..
+2022-04-09 22:27:03 INFO  main [PluginManager] Loading plugin "plugins/plastic.so" ..
+2022-04-09 22:27:03 INFO  main [PluginManager] Loading plugin "plugins/obj.so" ..
+2022-04-09 22:27:03 INFO  main [WavefrontOBJ] Loading geometry from "bishop1.white.obj" ..
+2022-04-09 22:27:03 INFO  main [WavefrontOBJ] bishop1.white: 5040 triangles, 2542 vertices (merged 12578 vertices).
+2022-04-09 22:27:03 INFO  main [WavefrontOBJ] Done with "bishop1.white.obj" (took 24 ms)
+2022-04-09 22:27:03 INFO  main [WavefrontOBJ] Loading geometry from "bishop2.white.obj" ..
+2022-04-09 22:27:03 INFO  main [WavefrontOBJ] bishop2.white: 5040 triangles, 2542 vertices (merged 12578 vertices).
+2022-04-09 22:27:03 INFO  main [WavefrontOBJ] Done with "bishop2.white.obj" (took 13 ms)
+2022-04-09 22:27:03 INFO  main [PluginManager] Loading plugin "plugins/diffuse.so" ..
+2022-04-09 22:27:03 INFO  main [WavefrontOBJ] Loading geometry from "black_squares2.obj" ..
+2022-04-09 22:27:03 INFO  main [WavefrontOBJ] black_squares2: 64 triangles, 127 vertices (merged 65 vertices).
+2022-04-09 22:27:03 INFO  main [WavefrontOBJ] Done with "black_squares2.obj" (took 0 ms)
+2022-04-09 22:27:03 INFO  main [WavefrontOBJ] Loading geometry from "white_squares2.obj" ..
+2022-04-09 22:27:03 INFO  main [WavefrontOBJ] white_squares2: 64 triangles, 128 vertices (merged 64 vertices).
+2022-04-09 22:27:03 INFO  main [WavefrontOBJ] Done with "white_squares2.obj" (took 0 ms)
+2022-04-09 22:27:03 INFO  main [WavefrontOBJ] Loading geometry from "chessboard.sides.obj" ..
+2022-04-09 22:27:03 INFO  main [WavefrontOBJ] chessboard.sides: 68 triangles, 54 vertices (merged 150 vertices).
+2022-04-09 22:27:03 INFO  main [WavefrontOBJ] Done with "chessboard.sides.obj" (took 0 ms)
+2022-04-09 22:27:03 INFO  main [WavefrontOBJ] Loading geometry from "king.white.obj" ..
+2022-04-09 22:27:03 INFO  main [WavefrontOBJ] king.white: 8856 triangles, 4447 vertices (merged 22121 vertices).
+2022-04-09 22:27:03 INFO  main [WavefrontOBJ] Done with "king.white.obj" (took 23 ms)
+2022-04-09 22:27:03 INFO  main [WavefrontOBJ] Loading geometry from "pawn1.white.obj" ..
+2022-04-09 22:27:03 INFO  main [WavefrontOBJ] pawn1.white: 3744 triangles, 1880 vertices (merged 9352 vertices).
+2022-04-09 22:27:03 INFO  main [WavefrontOBJ] Done with "pawn1.white.obj" (took 9 ms)
+2022-04-09 22:27:03 INFO  main [WavefrontOBJ] Loading geometry from "pawn2.white.obj" ..
+2022-04-09 22:27:03 INFO  main [WavefrontOBJ] pawn2.white: 3744 triangles, 1880 vertices (merged 9352 vertices).
+2022-04-09 22:27:03 INFO  main [WavefrontOBJ] Done with "pawn2.white.obj" (took 10 ms)
+2022-04-09 22:27:03 INFO  main [PluginManager] Loading plugin "plugins/bitmap.so" ..
+2022-04-09 22:27:03 INFO  main [BitmapTexture] Loading texture "black_queen.bump0.exr"

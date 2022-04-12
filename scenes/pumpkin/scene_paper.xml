@@ -3,7 +3,7 @@
 <scene version="0.6.0">
 
     <integrator type="quad">
-        <float name="spp" value="64"/>
+        <float name="spp" value="1024"/>
         <integer name="n_dims" value="3"/>
         <float name="spp_cv" value="-1"/>
         <float name="scaleSpp" value="16"/>

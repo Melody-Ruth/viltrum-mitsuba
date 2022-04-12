@@ -477,7 +477,7 @@ public:
 			renderInternalDim(stepper, pathResult);
 		} else if (m_typeIntegrator == "cv_pixel_alphaOpt") {
 			auto seed = std::random_device()();
-			seed = 40;
+			seed = 20;
 			std::mt19937_64 rng (seed);
 			auto rg = region_generator(std::forward<NESTEDQ>(nestedQ), errorEstimator(), m_maxIterations);
 
@@ -488,7 +488,7 @@ public:
 			renderInternalDim(integrator, pathResult);
 		} else if (m_typeIntegrator == "cv_pixel_alphaOpt_antithetic") {
 			auto seed = std::random_device()();
-			seed = 40;
+			seed = 20;
 			std::mt19937_64 rng (seed);
 			auto rg = region_generator(std::forward<NESTEDQ>(nestedQ), errorEstimator(), m_maxIterations);
 

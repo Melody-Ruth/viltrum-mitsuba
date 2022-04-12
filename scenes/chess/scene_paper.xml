@@ -146,55 +146,9 @@
 		</bsdf>
 	</shape>
 
-	<shape type="obj">
-		<transform name="toWorld">
-			<translate y="0" z="0.08274" x="0.034288"/>
-		</transform>
-		<string name="filename" value="black_pawn3.obj"/>
 
-		<bsdf type="bumpmap">
-			<texture type="scale">
-				<texture type="bitmap">
-					<string name="filename" value="black_pawn.bump0.exr"/>
-				</texture>
-			</texture>
 
-			<bsdf type="plastic">
-				<texture name="specularReflectance" type="bitmap">
-					<string name="filename" value="black_pawn.specularity0.exr"/>
-				</texture>
 
-				<texture name="diffuseReflectance" type="bitmap">
-					<string name="filename" value="black_pawn.diffuse0000.exr"/>
-				</texture>
-			</bsdf>
-		</bsdf>
-	</shape>
-
-	<shape type="obj">
-		<transform name="toWorld">
-			<translate y="0" z="0.20274" x="0.038288"/>
-		</transform>
-		<string name="filename" value="black_pawn3.obj"/>
-
-		<bsdf type="bumpmap">
-			<texture type="scale">
-				<texture type="bitmap">
-					<string name="filename" value="black_pawn.bump0.exr"/>
-				</texture>
-			</texture>
-
-			<bsdf type="plastic">
-				<texture name="specularReflectance" type="bitmap">
-					<string name="filename" value="black_pawn.specularity0.exr"/>
-				</texture>
-
-				<texture name="diffuseReflectance" type="bitmap">
-					<string name="filename" value="black_pawn.diffuse0000.exr"/>
-				</texture>
-			</bsdf>
-		</bsdf>
-	</shape>
 
 	<shape type="obj">
 		<transform name="toWorld">
