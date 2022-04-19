@@ -9,6 +9,7 @@
 #include "tupleMath.h"
 #include "quadSampler.h"
 #include "pathTracer.h"
+#include "pathMIS.h"
 #include "singleScattering.h"
 #include "singleScatteringEquiangular.h"
 #include "singleScatteringVRL.h"
@@ -322,6 +323,12 @@ public:
 				tempPtr->m_solid_angle_sampling = m_solid_angle_sampling;
 				tempPtr->m_directSampling = true;
 			}
+
+			m_subIntegrator = tempPtr;
+		} else if (m_typeSubIntegrator == "pathMIS") {
+			Log(EInfo, "Preparing Path MIS denoising");
+			ref<PathTracerMIS> tempPtr = static_cast<PathTracerMIS *> (PluginManager::getInstance()->
+			createObject(MTS_CLASS(MonteCarloIntegrator), Properties("pathQuadratureMIS")));
 
 			m_subIntegrator = tempPtr;
 		} else if (m_typeSubIntegrator == "singleScattering") {
