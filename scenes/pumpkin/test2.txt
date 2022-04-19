@@ -1,27 +1,27 @@
-2022-04-12 10:25:02 INFO  main [mitsuba.cpp:274] Mitsuba version 0.6.0 (Linux, 64 bit), Copyright (c) 2017 Wenzel Jakob
-2022-04-12 10:25:02 INFO  main [mitsuba.cpp:377] Parsing scene description from "scene_paper.xml" ..
-2022-04-12 10:25:02 INFO  main [PluginManager] Loading plugin "plugins/quad.so" ..
-2022-04-12 10:25:02 WARN  main [scenehandler.cpp:820] In file "/media/melody/Extra Space/home/melody/Documents/viltrum-mitsuba/scenes/pumpkin/scene_paper.xml" (near line 22): Unqueried attribute "directSampling" in element "integrator"
-2022-04-12 10:25:02 INFO  main [PluginManager] Loading plugin "plugins/homogeneous.so" ..
-2022-04-12 10:25:02 INFO  main [PluginManager] Loading plugin "plugins/isotropic.so" ..
-2022-04-12 10:25:02 INFO  main [PluginManager] Loading plugin "plugins/independent.so" ..
-2022-04-12 10:25:02 INFO  main [PluginManager] Loading plugin "plugins/box.so" ..
-2022-04-12 10:25:02 INFO  main [PluginManager] Loading plugin "plugins/hdrfilm.so" ..
-2022-04-12 10:25:02 INFO  main [PluginManager] Loading plugin "plugins/perspective.so" ..
-2022-04-12 10:25:02 INFO  main [PluginManager] Loading plugin "plugins/point.so" ..
-2022-04-12 10:25:02 INFO  main [PluginManager] Loading plugin "plugins/obj.so" ..
-2022-04-12 10:25:02 INFO  main [WavefrontOBJ] Loading geometry from "Halloween_Pumpkin.obj" ..
-2022-04-12 10:25:02 INFO  main [WavefrontOBJ] Halloween_Pumpkin: 5194 triangles, 4003 vertices (merged 11579 vertices).
-2022-04-12 10:25:02 INFO  main [WavefrontOBJ] Loading OBJ materials from "Halloween_Pumpkin.mtl" ..
-2022-04-12 10:25:02 INFO  main [PluginManager] Loading plugin "plugins/bitmap.so" ..
-2022-04-12 10:25:02 INFO  main [BitmapTexture] Loading texture "Halloween_Pumpkin_TEXTURE.png"
-2022-04-12 10:25:02 INFO  main [MIPMap] Mapped MIP map cache file "/media/melody/Extra Space/home/melody/Documents/viltrum-mitsuba/scenes/pumpkin/Halloween_Pumpkin_TEXTURE.mip" into memory (32.0 MiB).
-2022-04-12 10:25:02 INFO  main [PluginManager] Loading plugin "plugins/diffuse.so" ..
-2022-04-12 10:25:02 WARN  main [BSDF] The BSDF
+2022-04-19 12:54:41 INFO  main [mitsuba.cpp:274] Mitsuba version 0.6.0 (Linux, 64 bit), Copyright (c) 2017 Wenzel Jakob
+2022-04-19 12:54:41 INFO  main [mitsuba.cpp:377] Parsing scene description from "scene_paper.xml" ..
+2022-04-19 12:54:41 INFO  main [PluginManager] Loading plugin "plugins/quad.so" ..
+2022-04-19 12:54:41 WARN  main [scenehandler.cpp:820] In file "/home/melody/Documents/viltrum-mitsuba/scenes/pumpkin/scene_paper.xml" (near line 22): Unqueried attribute "directSampling" in element "integrator"
+2022-04-19 12:54:41 INFO  main [PluginManager] Loading plugin "plugins/homogeneous.so" ..
+2022-04-19 12:54:41 INFO  main [PluginManager] Loading plugin "plugins/isotropic.so" ..
+2022-04-19 12:54:41 INFO  main [PluginManager] Loading plugin "plugins/independent.so" ..
+2022-04-19 12:54:41 INFO  main [PluginManager] Loading plugin "plugins/box.so" ..
+2022-04-19 12:54:41 INFO  main [PluginManager] Loading plugin "plugins/hdrfilm.so" ..
+2022-04-19 12:54:41 INFO  main [PluginManager] Loading plugin "plugins/perspective.so" ..
+2022-04-19 12:54:41 INFO  main [PluginManager] Loading plugin "plugins/point.so" ..
+2022-04-19 12:54:41 INFO  main [PluginManager] Loading plugin "plugins/obj.so" ..
+2022-04-19 12:54:41 INFO  main [WavefrontOBJ] Loading geometry from "Halloween_Pumpkin.obj" ..
+2022-04-19 12:54:41 INFO  main [WavefrontOBJ] Halloween_Pumpkin: 5194 triangles, 4003 vertices (merged 11579 vertices).
+2022-04-19 12:54:41 INFO  main [WavefrontOBJ] Loading OBJ materials from "Halloween_Pumpkin.mtl" ..
+2022-04-19 12:54:41 INFO  main [PluginManager] Loading plugin "plugins/bitmap.so" ..
+2022-04-19 12:54:41 INFO  main [BitmapTexture] Loading texture "Halloween_Pumpkin_TEXTURE.png"
+2022-04-19 12:54:41 INFO  main [MIPMap] Mapped MIP map cache file "/home/melody/Documents/viltrum-mitsuba/scenes/pumpkin/Halloween_Pumpkin_TEXTURE.mip" into memory (32.0 MiB).
+2022-04-19 12:54:41 INFO  main [PluginManager] Loading plugin "plugins/diffuse.so" ..
+2022-04-19 12:54:41 WARN  main [BSDF] The BSDF
 SmoothDiffuse[
   id = "unnamed",
   reflectance = BitmapTexture[
-    filename = "/media/melody/Extra Space/home/melody/Documents/viltrum-mitsuba/scenes/pumpkin/Halloween_Pumpkin_TEXTURE.png",
+    filename = "/home/melody/Documents/viltrum-mitsuba/scenes/pumpkin/Halloween_Pumpkin_TEXTURE.png",
     mipmap = ref<MIPMap>[ref=1, ptr=TMIPMap[
        pixelFormat = rgb,
        size = 32.0 MiB,
@@ -36,26 +36,20 @@ SmoothDiffuse[
   ]
 ]
 violates energy conservation! The parameter "reflectance" has a component-wise maximum of 1 (which is > 1!) and will therefore be scaled by 0.99 to prevent issues. Specify the parameter ensureEnergyConservation=false to the BSDF to prevent this from happening.
-2022-04-12 10:25:02 INFO  main [PluginManager] Loading plugin "plugins/scale.so" ..
-2022-04-12 10:25:02 INFO  main [WavefrontOBJ] Done with "Halloween_Pumpkin.obj" (took 26 ms)
-2022-04-12 10:25:02 INFO  ren0 [KDTreeBase] Constructing a SAH kd-tree (5194 primitives) ..
-2022-04-12 10:25:02 INFO  ren0 [KDTreeBase] Finished -- took 82 ms.
-2022-04-12 10:25:02 INFO  ren0 [PSACV] SPP 960.000000   SPP_CV 64.000000  SCALE 0.062500
-2022-04-12 10:25:02 INFO  ren0 [PluginManager] Loading plugin "plugins/singleScatteringQuadratureEquiangular.so" ..
-2022-04-12 10:25:02 INFO  ren0 [SingleScatteringQuadratureEquiangular] Disabled direct sampling of lights
-2022-04-12 10:25:02 INFO  ren0 [PSACV] Samples per iteration 18
-2022-04-12 10:25:02 INFO  ren0 [PSACV] Using 3276800 iterations from 64.000000 spp requested for CV init
-2022-04-12 10:25:02 INFO  ren0 [PSACV] Using simpsons-trapezoidal rules
-2022-04-12 10:25:02 INFO  ren0 [PSACV] Launching
+2022-04-19 12:54:41 INFO  main [PluginManager] Loading plugin "plugins/scale.so" ..
+2022-04-19 12:54:41 INFO  main [WavefrontOBJ] Done with "Halloween_Pumpkin.obj" (took 23 ms)
+2022-04-19 12:54:41 INFO  ren0 [KDTreeBase] Constructing a SAH kd-tree (5194 primitives) ..
+2022-04-19 12:54:41 INFO  ren0 [KDTreeBase] Finished -- took 57 ms.
+2022-04-19 12:54:41 INFO  ren0 [PSACV] SPP 14531.250000   SPP_CV 968.750000  SCALE 0.062500
+2022-04-19 12:54:41 INFO  ren0 [PluginManager] Loading plugin "plugins/singleScatteringQuadratureEquiangular.so" ..
+2022-04-19 12:54:41 INFO  ren0 [SingleScatteringQuadratureEquiangular] Disabled direct sampling of lights
+2022-04-19 12:54:41 INFO  ren0 [PSACV] Samples per iteration 18
+2022-04-19 12:54:41 INFO  ren0 [PSACV] Using 49600000 iterations from 968.750000 spp requested for CV init
+2022-04-19 12:54:41 INFO  ren0 [PSACV] Using simpsons-trapezoidal rules
+2022-04-19 12:54:41 INFO  ren0 [PSACV] Launching
 Bin dimensions: 2
 0, 1
 0, 1
 0, 1
 About to start
-Number of iterations: 3276800
-Inside init
-0, 1 and 0, 1 and 0, 1 and 1, 1 and Region results: 
-Number of regions total: 3276801
-1.52915, 1.52915, 1.52915
-Number of pixels total: 921600
-959
+Number of iterations: 49600000

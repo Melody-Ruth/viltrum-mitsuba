@@ -1,47 +1,140 @@
-2022-04-10 11:57:00 INFO  main [mitsuba.cpp:274] Mitsuba version 0.6.0 (Linux, 64 bit), Copyright (c) 2017 Wenzel Jakob
-2022-04-10 11:57:00 INFO  main [mitsuba.cpp:377] Parsing scene description from "scene_paper.xml" ..
-2022-04-10 11:57:00 INFO  main [PluginManager] Loading plugin "plugins/quad.so" ..
-2022-04-10 11:57:00 INFO  main [PluginManager] Loading plugin "plugins/independent.so" ..
-2022-04-10 11:57:00 INFO  main [PluginManager] Loading plugin "plugins/box.so" ..
-2022-04-10 11:57:00 INFO  main [PluginManager] Loading plugin "plugins/hdrfilm.so" ..
-2022-04-10 11:57:00 INFO  main [PluginManager] Loading plugin "plugins/perspective.so" ..
-2022-04-10 11:57:00 INFO  main [PluginManager] Loading plugin "plugins/diffuse.so" ..
-2022-04-10 11:57:00 INFO  main [PluginManager] Loading plugin "plugins/rectangle.so" ..
-2022-04-10 11:57:00 INFO  main [PluginManager] Loading plugin "plugins/bitmap.so" ..
-2022-04-10 11:57:00 INFO  main [BitmapTexture] Loading texture "gradient3.png"
-2022-04-10 11:57:00 INFO  main [PluginManager] Loading plugin "plugins/lanczos.so" ..
-2022-04-10 11:57:00 INFO  main [PluginManager] Loading plugin "plugins/scale.so" ..
-2022-04-10 11:57:00 INFO  main [PluginManager] Loading plugin "plugins/areacolor.so" ..
-2022-04-10 11:57:00 INFO  main [PluginManager] Loading plugin "plugins/phong.so" ..
-2022-04-10 11:57:00 INFO  main [PluginManager] Loading plugin "plugins/ply.so" ..
-2022-04-10 11:57:00 INFO  main [PLYLoader] Loading geometry from "dragon.ply" ..
-2022-04-10 11:57:01 INFO  main [PLYLoader] "dragon": Loaded 7219045 triangles, 3609600 vertices (165.2 MiB in 1448 ms).
-2022-04-10 11:57:02 INFO  ren0 [KDTreeBase] Constructing a SAH kd-tree (7219047 primitives) ..
-2022-04-10 11:57:25 INFO  ren0 [KDTreeBase] Finished -- took 22423 ms.
-2022-04-10 11:57:26 INFO  ren0 [PSACV] SPP 1453.125000   SPP_CV 96.875000  SCALE 0.062500
-2022-04-10 11:57:26 INFO  ren0 [PluginManager] Loading plugin "plugins/pathQuadrature.so" ..
-2022-04-10 11:57:26 INFO  ren0 [PSACV] Samples per iteration 54
-2022-04-10 11:57:26 INFO  ren0 [PSACV] Using 343525 iterations from 96.875000 spp requested for CV init
-2022-04-10 11:57:26 INFO  ren0 [PSACV] Using simpsons-trapezoidal rules
-2022-04-10 11:57:26 INFO  ren0 [PSACV] Launching
+2022-04-19 10:52:27 INFO  main [mitsuba.cpp:274] Mitsuba version 0.6.0 (Linux, 64 bit), Copyright (c) 2017 Wenzel Jakob
+2022-04-19 10:52:27 INFO  main [mitsuba.cpp:377] Parsing scene description from "scene_paper.xml" ..
+2022-04-19 10:52:27 INFO  main [PluginManager] Loading plugin "plugins/quad.so" ..
+2022-04-19 10:52:27 INFO  main [PluginManager] Loading plugin "plugins/independent.so" ..
+2022-04-19 10:52:27 INFO  main [PluginManager] Loading plugin "plugins/box.so" ..
+2022-04-19 10:52:27 INFO  main [PluginManager] Loading plugin "plugins/hdrfilm.so" ..
+2022-04-19 10:52:27 INFO  main [PluginManager] Loading plugin "plugins/perspective.so" ..
+2022-04-19 10:52:27 INFO  main [PluginManager] Loading plugin "plugins/diffuse.so" ..
+2022-04-19 10:52:27 INFO  main [PluginManager] Loading plugin "plugins/rectangle.so" ..
+2022-04-19 10:52:27 INFO  main [PluginManager] Loading plugin "plugins/bitmap.so" ..
+2022-04-19 10:52:27 INFO  main [BitmapTexture] Loading texture "gradient3.png"
+2022-04-19 10:52:27 INFO  main [PluginManager] Loading plugin "plugins/lanczos.so" ..
+2022-04-19 10:52:27 INFO  main [PluginManager] Loading plugin "plugins/scale.so" ..
+2022-04-19 10:52:27 INFO  main [PluginManager] Loading plugin "plugins/areacolor.so" ..
+2022-04-19 10:52:27 INFO  main [PluginManager] Loading plugin "plugins/phong.so" ..
+2022-04-19 10:52:27 INFO  main [PluginManager] Loading plugin "plugins/ply.so" ..
+2022-04-19 10:52:27 INFO  main [PLYLoader] Loading geometry from "dragon.ply" ..
+2022-04-19 10:52:28 INFO  main [PLYLoader] "dragon": Loaded 7219045 triangles, 3609600 vertices (165.2 MiB in 1028 ms).
+2022-04-19 10:52:29 INFO  ren0 [KDTreeBase] Constructing a SAH kd-tree (7219047 primitives) ..
+2022-04-19 10:52:38 INFO  ren0 [KDTreeBase] Finished -- took 9363 ms.
+2022-04-19 10:52:39 INFO  ren0 [PSACV] SPP 145.312500   SPP_CV 9.687500  SCALE 0.062500
+2022-04-19 10:52:39 INFO  ren0 [PluginManager] Loading plugin "plugins/pathQuadrature.so" ..
+2022-04-19 10:52:39 INFO  ren0 [PSACV] Samples per iteration 54
+2022-04-19 10:52:39 INFO  ren0 [PSACV] Using 34352 iterations from 9.687500 spp requested for CV init
+2022-04-19 10:52:39 INFO  ren0 [PSACV] Using simpsons-trapezoidal rules
+2022-04-19 10:52:39 INFO  ren0 [PSACV] Launching
 Bin dimensions: 2
 0, 1
 0, 1
 0, 1
 0, 1
-Number of iterations: 343525
+About to start
+Number of iterations: 34352
 Inside init
 0, 1 and 0, 1 and 0, 1 and 0, 1 and Region results: 
-Number of regions total: 343526
+Number of regions total: 34353
 0, 0, 0
 Number of pixels total: 191488
-2022-04-10 12:06:09 INFO  ren0 [PSACV] Done
-2022-04-10 12:06:09 INFO  ren0 [PSACV] Total samples used :  Init(0)  Iterations(296782498)  Total(296806400.000000)
-Average pixel: 0.0906487
-2022-04-10 12:06:09 INFO  ren0 [PSACV] [TIME *] Sampling routine callback 142765 milliseconds
-2022-04-10 12:06:09 INFO  ren0 [RenderJob] Render time: 9.1216m
-2022-04-10 12:06:09 INFO  ren0 [HDRFilm] Writing image to "/media/melody/Extra Space/home/melody/Documents/viltrum-mitsuba/scenes/dragon/scene_paper.exr" ..
-2022-04-10 12:06:10 INFO  main [statistics.cpp:142] Statistics:
+About to start pixels
+starting pixels
+check point one
+check point two
+check point five
+check point five
+check point five
+check point five
+check point five
+check point five
+check point five
+check point five
+check point five
+check point five
+check point five
+check point five
+check point five
+check point six
+Region 0: 0.943359, 0.945312, 0.997326, 10.25, 0.3750.25, 0.375
+Region 1: 0.943359, 0.945312, 0.997326, 10.125, 0.250, 0.125
+Region 2: 0.943359, 0.945312, 0.997326, 10, 0.1250, 0.125
+Region 3: 0.943359, 0.945312, 0.997326, 10.875, 10.875, 1
+Region 4: 0.943359, 0.945312, 0.997326, 10.25, 0.3750, 0.125
+Region 5: 0.943359, 0.945312, 0.997326, 10.375, 0.50.25, 0.375
+Region 6: 0.943359, 0.945312, 0.997326, 10.375, 0.50.625, 0.75
+Region 7: 0.943359, 0.945312, 0.997326, 10.625, 0.750.5, 0.625
+Region 8: 0.943359, 0.945312, 0.997326, 10.125, 0.250.625, 0.75
+Region 9: 0.943359, 0.945312, 0.997326, 10.125, 0.250.375, 0.5
+Region 10: 0.943359, 0.945312, 0.997326, 10.125, 0.250.25, 0.375
+Region 11: 0.943359, 0.945312, 0.997326, 10.375, 0.50.125, 0.25
+Region 12: 0.943359, 0.945312, 0.997326, 10.25, 0.3750.625, 0.75
+Region 13: 0.943359, 0.945312, 0.997326, 10.625, 0.750.625, 0.75
+Region 14: 0.943359, 0.945312, 0.997326, 10, 0.1250.125, 0.25
+Region 15: 0.943359, 0.945312, 0.997326, 10.5, 0.6250.125, 0.25
+Region 16: 0.943359, 0.945312, 0.997326, 10.125, 0.250.125, 0.25
+Region 17: 0.943359, 0.945312, 0.997326, 10, 0.1250.25, 0.375
+Region 18: 0.943359, 0.945312, 0.997326, 10.375, 0.50, 0.125
+Region 19: 0.943359, 0.945312, 0.997326, 10.375, 0.50.75, 0.875
+Region 20: 0.943359, 0.945312, 0.997326, 10.5, 0.6250.75, 0.875
+Region 21: 0.943359, 0.945312, 0.997326, 10.125, 0.250.75, 0.875
+Region 22: 0.943359, 0.945312, 0.997326, 10.625, 0.750.375, 0.5
+Region 23: 0.943359, 0.945312, 0.997326, 10.875, 10.125, 0.25
+Region 24: 0.943359, 0.945312, 0.997326, 10.5625, 0.6250, 0.125
+Region 25: 0.943359, 0.945312, 0.997326, 10.375, 0.50.375, 0.5
+Region 26: 0.943359, 0.945312, 0.997326, 10.25, 0.3750.375, 0.5
+Region 27: 0.943359, 0.945312, 0.997326, 10, 0.1250.875, 1
+Region 28: 0.943359, 0.945312, 0.997326, 10.25, 0.3750.125, 0.25
+Region 29: 0.943359, 0.945312, 0.997326, 10, 0.1250.625, 0.75
+Region 30: 0.943359, 0.945312, 0.997326, 10.75, 0.8750.875, 1
+Region 31: 0.943359, 0.945312, 0.997326, 10.25, 0.3750.875, 1
+Region 32: 0.943359, 0.945312, 0.997326, 10.125, 0.250.875, 1
+Region 33: 0.943359, 0.945312, 0.997326, 10, 0.1250.75, 0.875
+Region 34: 0.943359, 0.945312, 0.997326, 10.75, 0.8750.75, 0.875
+Region 35: 0.943359, 0.945312, 0.997326, 10.875, 10.75, 0.875
+Region 36: 0.943359, 0.945312, 0.997326, 10.5, 0.6250.625, 0.75
+Region 37: 0.943359, 0.945312, 0.997326, 10.75, 0.8750.375, 0.5
+Region 38: 0.943359, 0.945312, 0.997326, 10.875, 10.25, 0.375
+Region 39: 0.943359, 0.945312, 0.997326, 10.625, 0.750.125, 0.25
+Region 40: 0.943359, 0.945312, 0.997326, 10.5, 0.6250.375, 0.5
+Region 41: 0.943359, 0.945312, 0.997326, 10.75, 0.8750, 0.125
+Region 42: 0.943359, 0.945312, 0.997326, 10.875, 0.93750, 0.125
+Region 43: 0.943359, 0.945312, 0.997326, 10.875, 10.5, 0.625
+Region 44: 0.943359, 0.945312, 0.997326, 10.625, 0.750.875, 1
+Region 45: 0.943359, 0.945312, 0.997326, 10, 0.1250.375, 0.5
+Region 46: 0.943359, 0.945312, 0.997326, 10.375, 0.50.5, 0.625
+Region 47: 0.943359, 0.945312, 0.997326, 10.375, 0.50.875, 1
+Region 48: 0.943359, 0.945312, 0.997326, 10.25, 0.3750.75, 0.875
+Region 49: 0.943359, 0.945312, 0.997326, 10.125, 0.250.5, 0.625
+Region 50: 0.943359, 0.945312, 0.997326, 10, 0.1250.5, 0.625
+Region 51: 0.943359, 0.945312, 0.997326, 10.25, 0.3750.5, 0.625
+Region 52: 0.943359, 0.945312, 0.997326, 10.625, 0.750.75, 0.875
+Region 53: 0.943359, 0.945312, 0.997326, 10.5, 0.6250.875, 1
+Region 54: 0.943359, 0.945312, 0.997326, 10.5, 0.6250.5, 0.625
+Region 55: 0.943359, 0.945312, 0.997326, 10.875, 10.375, 0.5
+Region 56: 0.943359, 0.945312, 0.997326, 10.75, 0.8750.25, 0.375
+Region 57: 0.943359, 0.945312, 0.997326, 10.875, 10.625, 0.75
+Region 58: 0.943359, 0.945312, 0.997326, 10.625, 0.750.25, 0.375
+Region 59: 0.943359, 0.945312, 0.997326, 10.5, 0.6250.25, 0.375
+Region 60: 0.943359, 0.945312, 0.997326, 10.75, 0.8750.125, 0.25
+Region 61: 0.943359, 0.945312, 0.997326, 10.9375, 10, 0.125
+Region 62: 0.943359, 0.945312, 0.997326, 10.8125, 0.8750.625, 0.75
+Region 63: 0.943359, 0.945312, 0.997326, 10.75, 0.81250.5, 0.625
+Region 64: 0.943359, 0.945312, 0.997326, 10.8125, 0.8750.5625, 0.625
+Region 65: 0.943359, 0.945312, 0.997326, 10.625, 0.750, 0.125
+Region 66: 0.943359, 0.945312, 0.997326, 10.5, 0.56250, 0.125
+Region 67: 0.943359, 0.945312, 0.997326, 10.75, 0.81250.625, 0.75
+Region 68: 0.943359, 0.945312, 0.997326, 10.8125, 0.8750.5, 0.5625
+Hello??? It's I
+i range: 0.943359 to 0.945312
+j range: 0.997326 to 1
+k range: 0.945312 to 5.22226e-06
+l range: 1 to 0
+2022-04-19 10:53:25 INFO  ren0 [PSACV] Done
+2022-04-19 10:53:25 INFO  ren0 [PSACV] Total samples used :  Init(0)  Iterations(29620852)  Total(29680640.000000)
+Average pixel: 0.0908237
+2022-04-19 10:53:25 INFO  ren0 [PSACV] [TIME *] Sampling routine callback 8705 milliseconds
+2022-04-19 10:53:25 INFO  ren0 [RenderJob] Render time: 56.1730s
+2022-04-19 10:53:25 INFO  ren0 [HDRFilm] Writing image to "/home/melody/Documents/viltrum-mitsuba/scenes/dragon/scene_paper.exr" ..
+2022-04-19 10:53:25 INFO  main [statistics.cpp:142] Statistics:
 ------------------------------------------------------------
  * Loaded plugins :
     -  plugins/areacolor.so [Area light Color]
@@ -60,15 +153,15 @@ Average pixel: 0.0906487
     -  plugins/scale.so [Scaling texture]
 
   * General :
-    -  Normal rays traced : 593.511 M
+    -  Normal rays traced : 59.237 M
 
   * Path tracer Quadrature :
-    -  Average path length : 1.10 (325.29 M / 296.78 M)
+    -  Average path length : 1.08 (32.09 M / 29.62 M)
 
   * Primary-Space Adaptive CV :
-    -  Total number of samples : 296.783 M
+    -  Total number of samples : 29.621 M
 
   * Texture system :
     -  Cumulative MIP map memory allocations : 2 MiB
-    -  Filtered texture lookups : 0.00 % (0.00 of 31.76 M)
+    -  Filtered texture lookups : 0.00 % (0.00 of 3.55 M)
 ------------------------------------------------------------
